@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVILLION LEVEL 4 MIMIC DRAWING REVIEW</title>
+    <style>
+        :root {
+            --bg-color: #0F172A;
+            --card-bg: #1E293B;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --accent-blue: #38BDF8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        .status-badge {
+            background-color: #EF4444;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .section {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid var(--border-color);
+        }
+
+        .section h2 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--accent-blue);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .image-container {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background-color: #020617;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .device-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .summary-card {
+            background-color: #0F172A;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .summary-card h3 {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .summary-card .value {
+            font-size: 20px;
+            font-weight: bold;
+            color: var(--accent-blue);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #0F172A;
+            color: var(--accent-blue);
+        }
+
+        tr:hover {
+            background-color: #1E293B;
+        }
+
+        .zone-pill {
+            background-color: #0284C7;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>AVILLION LEVEL 4 MIMIC DRAWING REVIEW</h1>
+                <p style="margin: 5px 0 0 0; color: var(--text-muted);">AVILLION Riou.dxf — Level 4 Mimic Floorplan & Device Extraction</p>
+            </div>
+            <div class="status-badge">
+                REVIEW_REQUIRED
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>1. Original vs. Converted Visual Comparison</h2>
+            <div class="image-container">
+                <img src="level4_visual_comparison.png" alt="Visual Comparison Original vs Converted Level 4">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. Vector SVG Floorplan (Level 4 Mimic)</h2>
+            <div class="image-container">
+                <object data="avillion_level4_mimic.svg" type="image/svg+xml" style="width:100%; max-height:600px;"></object>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Device Pins & Zones Summary</h2>
+            <div class="device-summary">
+                <div class="summary-card">
+                    <h3>Building</h3>
+                    <div class="value">AVILLION RIOU</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Level</h3>
+                    <div class="value">Level 4</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Total Extracted Devices</h3>
+                    <div class="value">47</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Zones Represented</h3>
+                    <div class="value">Zone 12, 13, 14, 15, 16</div>
+                </div>
+            </div>
+
+            <h3>Device Pin Table (Sample 20 Devices)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Type</th>
+                        <th>Label</th>
+                        <th>Description</th>
+                        <th>Zone</th>
+                        <th>CAD Position (X, Y)</th>
+                        <th>Mimic Position (X, Y)</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>DEV-L4-001</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3817.06, -1264.38)</td>
+                        <td>(1057.24, 1060.35)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-002</strong></td>
+                        <td>HOSE_REEL</td>
+                        <td>HR</td>
+                        <td>Hose Reel Drum</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3810.89, -1262.13)</td>
+                        <td>(1073.85, 1067.16)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-003</strong></td>
+                        <td>BREAK_GLASS</td>
+                        <td>BG</td>
+                        <td>Manual Call Point / Break Glass</td>
+                        <td><span class="zone-pill">Zone 12</span></td>
+                        <td>(-3793.62, -1265.82)</td>
+                        <td>(1120.36, 1055.99)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-004</strong></td>
+                        <td>BREAK_GLASS</td>
+                        <td>BG</td>
+                        <td>Manual Call Point / Break Glass</td>
+                        <td><span class="zone-pill">Zone 12</span></td>
+                        <td>(-3710.5, -1281.78)</td>
+                        <td>(1344.21, 1007.67)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-005</strong></td>
+                        <td>HOSE_REEL</td>
+                        <td>HR</td>
+                        <td>Hose Reel Drum</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3697.51, -1270.41)</td>
+                        <td>(1379.2, 1042.09)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-006</strong></td>
+                        <td>FIRE_PANEL</td>
+                        <td>DP</td>
+                        <td>Fire Alarm Panel / Distribution Point</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3757.47, -1264.23)</td>
+                        <td>(1217.72, 1060.8)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-007</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 12</span></td>
+                        <td>(-3698.87, -1302.32)</td>
+                        <td>(1375.53, 945.49)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-008</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3714.9, -1253.29)</td>
+                        <td>(1332.36, 1093.92)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-009</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 14</span></td>
+                        <td>(-3727.47, -1257.67)</td>
+                        <td>(1298.51, 1080.66)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-010</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3736.61, -1257.54)</td>
+                        <td>(1273.9, 1081.05)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-011</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3742.65, -1257.43)</td>
+                        <td>(1257.63, 1081.39)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-012</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3718.63, -1264.41)</td>
+                        <td>(1322.32, 1060.26)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-013</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3745.29, -1264.18)</td>
+                        <td>(1250.52, 1060.95)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-014</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3772.79, -1264.18)</td>
+                        <td>(1176.46, 1060.95)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-015</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3804.2, -1264.18)</td>
+                        <td>(1091.87, 1060.95)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-016</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3697.86, -1264.41)</td>
+                        <td>(1378.25, 1060.26)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-017</strong></td>
+                        <td>FIRE_PANEL</td>
+                        <td>DP</td>
+                        <td>Fire Alarm Panel / Distribution Point</td>
+                        <td><span class="zone-pill">Zone 13</span></td>
+                        <td>(-3706.52, -1252.86)</td>
+                        <td>(1354.93, 1095.22)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-018</strong></td>
+                        <td>BREAK_GLASS</td>
+                        <td>BG</td>
+                        <td>Manual Call Point / Break Glass</td>
+                        <td><span class="zone-pill">Zone 15</span></td>
+                        <td>(-3635.08, -1254.99)</td>
+                        <td>(1547.33, 1088.77)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-019</strong></td>
+                        <td>HOSE_REEL</td>
+                        <td>HR</td>
+                        <td>Hose Reel Drum</td>
+                        <td><span class="zone-pill">Zone 15</span></td>
+                        <td>(-3617.43, -1255.13)</td>
+                        <td>(1594.86, 1088.35)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L4-020</strong></td>
+                        <td>FIRE_PANEL</td>
+                        <td>DP</td>
+                        <td>Fire Alarm Panel / Distribution Point</td>
+                        <td><span class="zone-pill">Zone 15</span></td>
+                        <td>(-3622.33, -1254.98)</td>
+                        <td>(1581.66, 1088.8)</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

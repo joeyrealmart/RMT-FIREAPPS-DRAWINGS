@@ -1,0 +1,744 @@
+{
+  "building": "AVILLION RIOU",
+  "level": "Level 5",
+  "total_devices": 48,
+  "zones": [
+    {
+      "zone": 15,
+      "name": "BG ZONE 15",
+      "description": "Break Glass / Hose Reel"
+    },
+    {
+      "zone": 16,
+      "name": "HD ZONE 16",
+      "description": "Heat Detectors - Corridor & Room Units"
+    },
+    {
+      "zone": 17,
+      "name": "HD ZONE 17",
+      "description": "Heat Detectors - Guest Rooms"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-L5-001",
+      "type": "HOSE_REEL",
+      "label": "HR",
+      "description": "Hose Reel Drum",
+      "zone": 5,
+      "cad_x": -3523.45,
+      "cad_y": -1154.39,
+      "mimic_x": 2700.08,
+      "mimic_y": 883.4,
+      "position_pct": {
+        "x": 54.22,
+        "y": 12.19
+      }
+    },
+    {
+      "id": "DEV-L5-002",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 8,
+      "cad_x": -3528.36,
+      "cad_y": -1154.24,
+      "mimic_x": 2689.37,
+      "mimic_y": 883.59,
+      "position_pct": {
+        "x": 52.2,
+        "y": 12.11
+      }
+    },
+    {
+      "id": "DEV-L5-003",
+      "type": "BREAK_GLASS",
+      "label": "BG",
+      "description": "Manual Call Point / Break Glass",
+      "zone": 5,
+      "cad_x": -3515.11,
+      "cad_y": -1153.87,
+      "mimic_x": 2718.26,
+      "mimic_y": 884.05,
+      "position_pct": {
+        "x": 57.63,
+        "y": 11.91
+      }
+    },
+    {
+      "id": "DEV-L5-004",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 8,
+      "cad_x": -3630.43,
+      "cad_y": -1165.86,
+      "mimic_x": 2466.8,
+      "mimic_y": 869.24,
+      "position_pct": {
+        "x": 10.36,
+        "y": 18.53
+      }
+    },
+    {
+      "id": "DEV-L5-005",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 7,
+      "cad_x": -3529.83,
+      "cad_y": -1175.43,
+      "mimic_x": 2686.16,
+      "mimic_y": 857.42,
+      "position_pct": {
+        "x": 51.6,
+        "y": 23.82
+      }
+    },
+    {
+      "id": "DEV-L5-006",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 7,
+      "cad_x": -3504.79,
+      "cad_y": -1175.43,
+      "mimic_x": 2740.77,
+      "mimic_y": 857.42,
+      "position_pct": {
+        "x": 61.87,
+        "y": 23.82
+      }
+    },
+    {
+      "id": "DEV-L5-007",
+      "type": "BREAK_GLASS",
+      "label": "BG",
+      "description": "Manual Call Point / Break Glass",
+      "zone": 8,
+      "cad_x": -3634.05,
+      "cad_y": -1152.45,
+      "mimic_x": 2458.91,
+      "mimic_y": 885.8,
+      "position_pct": {
+        "x": 8.88,
+        "y": 11.12
+      }
+    },
+    {
+      "id": "DEV-L5-008",
+      "type": "HOSE_REEL",
+      "label": "HR",
+      "description": "Hose Reel Drum",
+      "zone": 8,
+      "cad_x": -3621.93,
+      "cad_y": -1154.39,
+      "mimic_x": 2485.34,
+      "mimic_y": 883.4,
+      "position_pct": {
+        "x": 13.85,
+        "y": 12.19
+      }
+    },
+    {
+      "id": "DEV-L5-009",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 8,
+      "cad_x": -3626.84,
+      "cad_y": -1154.24,
+      "mimic_x": 2474.63,
+      "mimic_y": 883.59,
+      "position_pct": {
+        "x": 11.83,
+        "y": 12.11
+      }
+    },
+    {
+      "id": "DEV-L5-010",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 8,
+      "cad_x": -3605.79,
+      "cad_y": -1165.86,
+      "mimic_x": 2520.53,
+      "mimic_y": 869.24,
+      "position_pct": {
+        "x": 20.46,
+        "y": 18.53
+      }
+    },
+    {
+      "id": "DEV-L5-011",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 8,
+      "cad_x": -3579.13,
+      "cad_y": -1165.86,
+      "mimic_x": 2578.66,
+      "mimic_y": 869.24,
+      "position_pct": {
+        "x": 31.39,
+        "y": 18.53
+      }
+    },
+    {
+      "id": "DEV-L5-012",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 8,
+      "cad_x": -3540.82,
+      "cad_y": -1165.86,
+      "mimic_x": 2662.2,
+      "mimic_y": 869.24,
+      "position_pct": {
+        "x": 47.1,
+        "y": 18.53
+      }
+    },
+    {
+      "id": "DEV-L5-013",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 7,
+      "cad_x": -3549.18,
+      "cad_y": -1168.88,
+      "mimic_x": 2643.97,
+      "mimic_y": 865.51,
+      "position_pct": {
+        "x": 43.67,
+        "y": 20.2
+      }
+    },
+    {
+      "id": "DEV-L5-014",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 7,
+      "cad_x": -3527.11,
+      "cad_y": -1167.05,
+      "mimic_x": 2692.1,
+      "mimic_y": 867.77,
+      "position_pct": {
+        "x": 52.72,
+        "y": 19.19
+      }
+    },
+    {
+      "id": "DEV-L5-015",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 7,
+      "cad_x": -3527.01,
+      "cad_y": -1180.04,
+      "mimic_x": 2692.31,
+      "mimic_y": 851.72,
+      "position_pct": {
+        "x": 52.76,
+        "y": 26.37
+      }
+    },
+    {
+      "id": "DEV-L5-016",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 7,
+      "cad_x": -3544.32,
+      "cad_y": -1180.97,
+      "mimic_x": 2654.57,
+      "mimic_y": 850.58,
+      "position_pct": {
+        "x": 45.66,
+        "y": 26.89
+      }
+    },
+    {
+      "id": "DEV-L5-017",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 7,
+      "cad_x": -3554.54,
+      "cad_y": -1180.97,
+      "mimic_x": 2632.28,
+      "mimic_y": 850.58,
+      "position_pct": {
+        "x": 41.47,
+        "y": 26.89
+      }
+    },
+    {
+      "id": "DEV-L5-018",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 7,
+      "cad_x": -3564.0,
+      "cad_y": -1180.97,
+      "mimic_x": 2611.66,
+      "mimic_y": 850.58,
+      "position_pct": {
+        "x": 37.59,
+        "y": 26.89
+      }
+    },
+    {
+      "id": "DEV-L5-019",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 7,
+      "cad_x": -3600.68,
+      "cad_y": -1180.97,
+      "mimic_x": 2531.67,
+      "mimic_y": 850.58,
+      "position_pct": {
+        "x": 22.56,
+        "y": 26.89
+      }
+    },
+    {
+      "id": "DEV-L5-020",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 8,
+      "cad_x": -3641.15,
+      "cad_y": -1174.07,
+      "mimic_x": 2443.43,
+      "mimic_y": 859.1,
+      "position_pct": {
+        "x": 5.97,
+        "y": 23.07
+      }
+    },
+    {
+      "id": "DEV-L5-021",
+      "type": "SMOKE_DETECTOR",
+      "label": "S",
+      "description": "Smoke Detector",
+      "zone": 16,
+      "cad_x": -3565.45,
+      "cad_y": -1239.56,
+      "mimic_x": 2608.49,
+      "mimic_y": 778.21,
+      "position_pct": {
+        "x": 37.0,
+        "y": 59.27
+      }
+    },
+    {
+      "id": "DEV-L5-022",
+      "type": "HOSE_REEL",
+      "label": "HR",
+      "description": "Hose Reel Drum",
+      "zone": 15,
+      "cad_x": -3554.13,
+      "cad_y": -1261.63,
+      "mimic_x": 2633.18,
+      "mimic_y": 750.95,
+      "position_pct": {
+        "x": 41.64,
+        "y": 71.47
+      }
+    },
+    {
+      "id": "DEV-L5-023",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 16,
+      "cad_x": -3559.03,
+      "cad_y": -1261.48,
+      "mimic_x": 2622.49,
+      "mimic_y": 751.14,
+      "position_pct": {
+        "x": 39.63,
+        "y": 71.39
+      }
+    },
+    {
+      "id": "DEV-L5-024",
+      "type": "BREAK_GLASS",
+      "label": "BG",
+      "description": "Manual Call Point / Break Glass",
+      "zone": 15,
+      "cad_x": -3545.77,
+      "cad_y": -1254.99,
+      "mimic_x": 2651.41,
+      "mimic_y": 759.15,
+      "position_pct": {
+        "x": 45.07,
+        "y": 67.8
+      }
+    },
+    {
+      "id": "DEV-L5-025",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3633.75,
+      "cad_y": -1227.76,
+      "mimic_x": 2459.56,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 9.0,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-026",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3624.78,
+      "cad_y": -1227.76,
+      "mimic_x": 2479.12,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 12.68,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-027",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3615.28,
+      "cad_y": -1227.76,
+      "mimic_x": 2499.84,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 16.57,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-028",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3606.19,
+      "cad_y": -1227.76,
+      "mimic_x": 2519.66,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 20.3,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-029",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3596.89,
+      "cad_y": -1227.76,
+      "mimic_x": 2539.94,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 24.11,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-030",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3586.5,
+      "cad_y": -1227.76,
+      "mimic_x": 2562.59,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 28.37,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-031",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3557.93,
+      "cad_y": -1227.76,
+      "mimic_x": 2624.89,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 40.08,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-032",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3548.53,
+      "cad_y": -1227.76,
+      "mimic_x": 2645.39,
+      "mimic_y": 792.79,
+      "position_pct": {
+        "x": 43.94,
+        "y": 52.75
+      }
+    },
+    {
+      "id": "DEV-L5-033",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3572.4,
+      "cad_y": -1225.3,
+      "mimic_x": 2593.34,
+      "mimic_y": 795.82,
+      "position_pct": {
+        "x": 34.15,
+        "y": 51.39
+      }
+    },
+    {
+      "id": "DEV-L5-034",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3624.29,
+      "cad_y": -1243.17,
+      "mimic_x": 2480.19,
+      "mimic_y": 773.75,
+      "position_pct": {
+        "x": 12.88,
+        "y": 61.27
+      }
+    },
+    {
+      "id": "DEV-L5-035",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3604.03,
+      "cad_y": -1243.17,
+      "mimic_x": 2524.37,
+      "mimic_y": 773.75,
+      "position_pct": {
+        "x": 21.18,
+        "y": 61.27
+      }
+    },
+    {
+      "id": "DEV-L5-036",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3582.59,
+      "cad_y": -1243.17,
+      "mimic_x": 2571.12,
+      "mimic_y": 773.75,
+      "position_pct": {
+        "x": 29.97,
+        "y": 61.27
+      }
+    },
+    {
+      "id": "DEV-L5-037",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3557.12,
+      "cad_y": -1243.17,
+      "mimic_x": 2626.66,
+      "mimic_y": 773.75,
+      "position_pct": {
+        "x": 40.41,
+        "y": 61.27
+      }
+    },
+    {
+      "id": "DEV-L5-038",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3540.65,
+      "cad_y": -1243.17,
+      "mimic_x": 2662.57,
+      "mimic_y": 773.75,
+      "position_pct": {
+        "x": 47.17,
+        "y": 61.27
+      }
+    },
+    {
+      "id": "DEV-L5-039",
+      "type": "BREAK_GLASS",
+      "label": "BG",
+      "description": "Manual Call Point / Break Glass",
+      "zone": 15,
+      "cad_x": -3635.08,
+      "cad_y": -1254.99,
+      "mimic_x": 2456.66,
+      "mimic_y": 759.15,
+      "position_pct": {
+        "x": 8.46,
+        "y": 67.8
+      }
+    },
+    {
+      "id": "DEV-L5-040",
+      "type": "HOSE_REEL",
+      "label": "HR",
+      "description": "Hose Reel Drum",
+      "zone": 15,
+      "cad_x": -3617.43,
+      "cad_y": -1255.13,
+      "mimic_x": 2495.15,
+      "mimic_y": 758.98,
+      "position_pct": {
+        "x": 15.69,
+        "y": 67.88
+      }
+    },
+    {
+      "id": "DEV-L5-041",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 15,
+      "cad_x": -3622.33,
+      "cad_y": -1254.98,
+      "mimic_x": 2484.47,
+      "mimic_y": 759.17,
+      "position_pct": {
+        "x": 13.68,
+        "y": 67.8
+      }
+    },
+    {
+      "id": "DEV-L5-042",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3626.86,
+      "cad_y": -1296.51,
+      "mimic_x": 2474.59,
+      "mimic_y": 707.87,
+      "position_pct": {
+        "x": 11.83,
+        "y": 90.75
+      }
+    },
+    {
+      "id": "DEV-L5-043",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3572.88,
+      "cad_y": -1295.92,
+      "mimic_x": 2592.29,
+      "mimic_y": 708.6,
+      "position_pct": {
+        "x": 33.95,
+        "y": 90.43
+      }
+    },
+    {
+      "id": "DEV-L5-044",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3562.5,
+      "cad_y": -1296.08,
+      "mimic_x": 2614.93,
+      "mimic_y": 708.4,
+      "position_pct": {
+        "x": 38.21,
+        "y": 90.51
+      }
+    },
+    {
+      "id": "DEV-L5-045",
+      "type": "FIRE_PANEL",
+      "label": "DP",
+      "description": "Fire Alarm Panel / Distribution Point",
+      "zone": 16,
+      "cad_x": -3458.78,
+      "cad_y": -1200.49,
+      "mimic_x": 2841.09,
+      "mimic_y": 826.47,
+      "position_pct": {
+        "x": 80.73,
+        "y": 37.68
+      }
+    },
+    {
+      "id": "DEV-L5-046",
+      "type": "SMOKE_DETECTOR",
+      "label": "S",
+      "description": "Smoke Detector",
+      "zone": 16,
+      "cad_x": -3458.67,
+      "cad_y": -1215.13,
+      "mimic_x": 2841.33,
+      "mimic_y": 808.38,
+      "position_pct": {
+        "x": 80.77,
+        "y": 45.77
+      }
+    },
+    {
+      "id": "DEV-L5-047",
+      "type": "EXTINGUISHER",
+      "label": "CO2",
+      "description": "CO2 Fire Extinguisher",
+      "zone": 16,
+      "cad_x": -3459.95,
+      "cad_y": -1225.58,
+      "mimic_x": 2838.54,
+      "mimic_y": 795.48,
+      "position_pct": {
+        "x": 80.25,
+        "y": 51.54
+      }
+    },
+    {
+      "id": "DEV-L5-048",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 16,
+      "cad_x": -3458.67,
+      "cad_y": -1221.07,
+      "mimic_x": 2841.33,
+      "mimic_y": 801.05,
+      "position_pct": {
+        "x": 80.77,
+        "y": 49.05
+      }
+    }
+  ]
+}
