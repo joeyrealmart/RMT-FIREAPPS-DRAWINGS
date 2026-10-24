@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVILLION LEVEL 6B (WTL & LMR) MIMIC DRAWING REVIEW</title>
+    <style>
+        :root {
+            --bg-color: #0F172A;
+            --card-bg: #1E293B;
+            --text-color: #F8FAFC;
+            --text-muted: #94A3B8;
+            --accent-blue: #38BDF8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        .status-badge {
+            background-color: #EF4444;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .section {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid var(--border-color);
+        }
+
+        .section h2 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--accent-blue);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .image-container {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background-color: #020617;
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .device-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .summary-card {
+            background-color: #0F172A;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .summary-card h3 {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .summary-card .value {
+            font-size: 20px;
+            font-weight: bold;
+            color: var(--accent-blue);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #0F172A;
+            color: var(--accent-blue);
+        }
+
+        tr:hover {
+            background-color: #1E293B;
+        }
+
+        .zone-pill {
+            background-color: #0284C7;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>AVILLION LEVEL 6B (WTL & LMR) MIMIC DRAWING REVIEW</h1>
+                <p style="margin: 5px 0 0 0; color: var(--text-muted);">AVILLION Riou.dxf — Level 6B (WTL & LMR) Mimic Floorplan & Device Extraction</p>
+            </div>
+            <div class="status-badge">
+                REVIEW_REQUIRED
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>1. Original vs. Converted Visual Comparison</h2>
+            <div class="image-container">
+                <img src="level6b_visual_comparison.png" alt="Visual Comparison Original vs Converted Level 6B">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. Vector SVG Floorplan (Level 6B WTL & LMR Mimic)</h2>
+            <div class="image-container">
+                <object data="avillion_level6b_mimic.svg" type="image/svg+xml" style="width:100%; max-height:600px;"></object>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Device Pins & Zones Summary</h2>
+            <div class="device-summary">
+                <div class="summary-card">
+                    <h3>Building</h3>
+                    <div class="value">AVILLION RIOU</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Level</h3>
+                    <div class="value">Level 6B (WTL & LMR)</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Total Extracted Devices</h3>
+                    <div class="value">11</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Zones Represented</h3>
+                    <div class="value">Zone 23, 24, 25, 26</div>
+                </div>
+            </div>
+
+            <h3>Device Pin Table (Sample Devices)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Type</th>
+                        <th>Label</th>
+                        <th>Description</th>
+                        <th>Zone</th>
+                        <th>CAD Position (X, Y)</th>
+                        <th>Mimic Position (X, Y)</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>DEV-L6B-001</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3646.09, -1373.17)</td>
+                        <td>(5897.06, 839.25)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-002</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3596.02, -1373.17)</td>
+                        <td>(6110.33, 839.25)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-003</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3598.09, -1384.3)</td>
+                        <td>(6101.51, 803.84)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-004</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 25</span></td>
+                        <td>(-3623.48, -1384.3)</td>
+                        <td>(5993.36, 803.84)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-005</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3652.35, -1384.3)</td>
+                        <td>(5870.39, 803.84)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-006</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3662.0, -1388.57)</td>
+                        <td>(5829.29, 790.25)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-007</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3662.0, -1401.26)</td>
+                        <td>(5829.29, 749.88)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-008</strong></td>
+                        <td>SMOKE_DETECTOR</td>
+                        <td>S</td>
+                        <td>Smoke Detector</td>
+                        <td><span class="zone-pill">Zone 24</span></td>
+                        <td>(-3586.07, -1383.36)</td>
+                        <td>(6152.71, 806.83)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-009</strong></td>
+                        <td>SMOKE_DETECTOR</td>
+                        <td>S</td>
+                        <td>Smoke Detector</td>
+                        <td><span class="zone-pill">Zone 23</span></td>
+                        <td>(-3590.91, -1387.23)</td>
+                        <td>(6132.1, 794.51)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-010</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3576.39, -1394.53)</td>
+                        <td>(6193.94, 771.29)</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>DEV-L6B-011</strong></td>
+                        <td>HEAT_DETECTOR</td>
+                        <td>H</td>
+                        <td>Heat Detector</td>
+                        <td><span class="zone-pill">Zone 26</span></td>
+                        <td>(-3548.98, -1394.52)</td>
+                        <td>(6310.7, 771.32)</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

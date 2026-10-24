@@ -1,0 +1,194 @@
+{
+  "building": "AVILLION RIOU",
+  "level": "Level 6B (WTL & LMR)",
+  "total_devices": 11,
+  "zones": [
+    {
+      "zone": 23,
+      "name": "SD ZONE 23",
+      "description": "Smoke Detectors - Water Tank Room"
+    },
+    {
+      "zone": 24,
+      "name": "SD ZONE 24",
+      "description": "Smoke Detectors - Lift Motor Room"
+    },
+    {
+      "zone": 25,
+      "name": "HD ZONE 25",
+      "description": "Heat Detectors - WTL / LMR"
+    },
+    {
+      "zone": 26,
+      "name": "HD ZONE 26",
+      "description": "Heat Detectors - WTL / LMR"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-L6B-001",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3646.09,
+      "cad_y": -1373.17,
+      "mimic_x": 5897.06,
+      "mimic_y": 839.25,
+      "position_pct": {
+        "x": 17.49,
+        "y": 13.29
+      }
+    },
+    {
+      "id": "DEV-L6B-002",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3596.02,
+      "cad_y": -1373.17,
+      "mimic_x": 6110.33,
+      "mimic_y": 839.25,
+      "position_pct": {
+        "x": 56.99,
+        "y": 13.29
+      }
+    },
+    {
+      "id": "DEV-L6B-003",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3598.09,
+      "cad_y": -1384.3,
+      "mimic_x": 6101.51,
+      "mimic_y": 803.84,
+      "position_pct": {
+        "x": 55.36,
+        "y": 30.7
+      }
+    },
+    {
+      "id": "DEV-L6B-004",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 25,
+      "cad_x": -3623.48,
+      "cad_y": -1384.3,
+      "mimic_x": 5993.36,
+      "mimic_y": 803.84,
+      "position_pct": {
+        "x": 35.33,
+        "y": 30.7
+      }
+    },
+    {
+      "id": "DEV-L6B-005",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3652.35,
+      "cad_y": -1384.3,
+      "mimic_x": 5870.39,
+      "mimic_y": 803.84,
+      "position_pct": {
+        "x": 12.56,
+        "y": 30.7
+      }
+    },
+    {
+      "id": "DEV-L6B-006",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3662.0,
+      "cad_y": -1388.57,
+      "mimic_x": 5829.29,
+      "mimic_y": 790.25,
+      "position_pct": {
+        "x": 4.95,
+        "y": 37.38
+      }
+    },
+    {
+      "id": "DEV-L6B-007",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3662.0,
+      "cad_y": -1401.26,
+      "mimic_x": 5829.29,
+      "mimic_y": 749.88,
+      "position_pct": {
+        "x": 4.95,
+        "y": 57.23
+      }
+    },
+    {
+      "id": "DEV-L6B-008",
+      "type": "SMOKE_DETECTOR",
+      "label": "S",
+      "description": "Smoke Detector",
+      "zone": 24,
+      "cad_x": -3586.07,
+      "cad_y": -1383.36,
+      "mimic_x": 6152.71,
+      "mimic_y": 806.83,
+      "position_pct": {
+        "x": 64.84,
+        "y": 29.23
+      }
+    },
+    {
+      "id": "DEV-L6B-009",
+      "type": "SMOKE_DETECTOR",
+      "label": "S",
+      "description": "Smoke Detector",
+      "zone": 23,
+      "cad_x": -3590.91,
+      "cad_y": -1387.23,
+      "mimic_x": 6132.1,
+      "mimic_y": 794.51,
+      "position_pct": {
+        "x": 61.02,
+        "y": 35.28
+      }
+    },
+    {
+      "id": "DEV-L6B-010",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3576.39,
+      "cad_y": -1394.53,
+      "mimic_x": 6193.94,
+      "mimic_y": 771.29,
+      "position_pct": {
+        "x": 72.47,
+        "y": 46.7
+      }
+    },
+    {
+      "id": "DEV-L6B-011",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3548.98,
+      "cad_y": -1394.52,
+      "mimic_x": 6310.7,
+      "mimic_y": 771.32,
+      "position_pct": {
+        "x": 94.09,
+        "y": 46.68
+      }
+    }
+  ]
+}

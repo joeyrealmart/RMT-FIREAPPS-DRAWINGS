@@ -1,0 +1,429 @@
+{
+  "building": "AVILLION RIOU",
+  "level": "Penthouse Lower (Level 6)",
+  "total_devices": 27,
+  "zones": [
+    {
+      "zone": 18,
+      "name": "BG ZONE 18",
+      "description": "Break Glass / Hose Reel"
+    },
+    {
+      "zone": 19,
+      "name": "HD ZONE 19",
+      "description": "Heat Detectors - Penthouse Lower Suites"
+    },
+    {
+      "zone": 20,
+      "name": "SD ZONE 20",
+      "description": "Smoke Detectors - Stairwells & Corridor"
+    }
+  ],
+  "devices": [
+    {
+      "id": "DEV-L6P-001",
+      "type": "BREAK_GLASS",
+      "label": "BG",
+      "description": "Manual Call Point / Break Glass",
+      "zone": 18,
+      "cad_x": -3540.21,
+      "cad_y": -1324.47,
+      "mimic_x": 4036.43,
+      "mimic_y": 825.52,
+      "position_pct": {
+        "x": 47.55,
+        "y": 26.98
+      }
+    },
+    {
+      "id": "DEV-L6P-002",
+      "type": "BREAK_GLASS",
+      "label": "BG",
+      "description": "Manual Call Point / Break Glass",
+      "zone": 18,
+      "cad_x": -3640.04,
+      "cad_y": -1324.47,
+      "mimic_x": 3808.03,
+      "mimic_y": 825.52,
+      "position_pct": {
+        "x": 8.49,
+        "y": 26.98
+      }
+    },
+    {
+      "id": "DEV-L6P-003",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3637.18,
+      "cad_y": -1302.93,
+      "mimic_x": 3814.57,
+      "mimic_y": 857.36,
+      "position_pct": {
+        "x": 9.61,
+        "y": 11.69
+      }
+    },
+    {
+      "id": "DEV-L6P-004",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3626.86,
+      "cad_y": -1296.51,
+      "mimic_x": 3838.18,
+      "mimic_y": 866.85,
+      "position_pct": {
+        "x": 13.65,
+        "y": 7.13
+      }
+    },
+    {
+      "id": "DEV-L6P-005",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3614.09,
+      "cad_y": -1303.26,
+      "mimic_x": 3867.4,
+      "mimic_y": 856.87,
+      "position_pct": {
+        "x": 18.64,
+        "y": 11.93
+      }
+    },
+    {
+      "id": "DEV-L6P-006",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3607.54,
+      "cad_y": -1303.26,
+      "mimic_x": 3882.38,
+      "mimic_y": 856.87,
+      "position_pct": {
+        "x": 21.21,
+        "y": 11.93
+      }
+    },
+    {
+      "id": "DEV-L6P-007",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3592.09,
+      "cad_y": -1303.26,
+      "mimic_x": 3917.73,
+      "mimic_y": 856.87,
+      "position_pct": {
+        "x": 27.25,
+        "y": 11.93
+      }
+    },
+    {
+      "id": "DEV-L6P-008",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3585.86,
+      "cad_y": -1303.26,
+      "mimic_x": 3931.99,
+      "mimic_y": 856.87,
+      "position_pct": {
+        "x": 29.69,
+        "y": 11.93
+      }
+    },
+    {
+      "id": "DEV-L6P-009",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3572.88,
+      "cad_y": -1295.92,
+      "mimic_x": 3961.68,
+      "mimic_y": 867.72,
+      "position_pct": {
+        "x": 34.77,
+        "y": 6.71
+      }
+    },
+    {
+      "id": "DEV-L6P-010",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3562.5,
+      "cad_y": -1296.08,
+      "mimic_x": 3985.43,
+      "mimic_y": 867.48,
+      "position_pct": {
+        "x": 38.83,
+        "y": 6.83
+      }
+    },
+    {
+      "id": "DEV-L6P-011",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3549.74,
+      "cad_y": -1303.26,
+      "mimic_x": 4014.63,
+      "mimic_y": 856.87,
+      "position_pct": {
+        "x": 43.82,
+        "y": 11.93
+      }
+    },
+    {
+      "id": "DEV-L6P-012",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3543.55,
+      "cad_y": -1303.26,
+      "mimic_x": 4028.79,
+      "mimic_y": 856.87,
+      "position_pct": {
+        "x": 46.25,
+        "y": 11.93
+      }
+    },
+    {
+      "id": "DEV-L6P-013",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3645.88,
+      "cad_y": -1319.06,
+      "mimic_x": 3794.66,
+      "mimic_y": 833.52,
+      "position_pct": {
+        "x": 6.2,
+        "y": 23.14
+      }
+    },
+    {
+      "id": "DEV-L6P-014",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3629.55,
+      "cad_y": -1316.54,
+      "mimic_x": 3832.03,
+      "mimic_y": 837.24,
+      "position_pct": {
+        "x": 12.59,
+        "y": 21.35
+      }
+    },
+    {
+      "id": "DEV-L6P-015",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3603.85,
+      "cad_y": -1316.54,
+      "mimic_x": 3890.83,
+      "mimic_y": 837.24,
+      "position_pct": {
+        "x": 22.65,
+        "y": 21.35
+      }
+    },
+    {
+      "id": "DEV-L6P-016",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3575.02,
+      "cad_y": -1316.54,
+      "mimic_x": 3956.79,
+      "mimic_y": 837.24,
+      "position_pct": {
+        "x": 33.93,
+        "y": 21.35
+      }
+    },
+    {
+      "id": "DEV-L6P-017",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3553.15,
+      "cad_y": -1316.54,
+      "mimic_x": 4006.82,
+      "mimic_y": 837.24,
+      "position_pct": {
+        "x": 42.49,
+        "y": 21.35
+      }
+    },
+    {
+      "id": "DEV-L6P-018",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 19,
+      "cad_x": -3532.64,
+      "cad_y": -1316.54,
+      "mimic_x": 4053.75,
+      "mimic_y": 837.24,
+      "position_pct": {
+        "x": 50.51,
+        "y": 21.35
+      }
+    },
+    {
+      "id": "DEV-L6P-019",
+      "type": "SMOKE_DETECTOR",
+      "label": "S",
+      "description": "Smoke Detector",
+      "zone": 20,
+      "cad_x": -3560.04,
+      "cad_y": -1313.01,
+      "mimic_x": 3991.06,
+      "mimic_y": 842.46,
+      "position_pct": {
+        "x": 39.79,
+        "y": 18.85
+      }
+    },
+    {
+      "id": "DEV-L6P-020",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3646.09,
+      "cad_y": -1373.17,
+      "mimic_x": 3794.18,
+      "mimic_y": 753.54,
+      "position_pct": {
+        "x": 6.12,
+        "y": 61.55
+      }
+    },
+    {
+      "id": "DEV-L6P-021",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3596.02,
+      "cad_y": -1373.17,
+      "mimic_x": 3908.74,
+      "mimic_y": 753.54,
+      "position_pct": {
+        "x": 25.71,
+        "y": 61.55
+      }
+    },
+    {
+      "id": "DEV-L6P-022",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3598.09,
+      "cad_y": -1384.3,
+      "mimic_x": 3904.0,
+      "mimic_y": 737.09,
+      "position_pct": {
+        "x": 24.9,
+        "y": 69.45
+      }
+    },
+    {
+      "id": "DEV-L6P-023",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 25,
+      "cad_x": -3623.48,
+      "cad_y": -1384.3,
+      "mimic_x": 3845.91,
+      "mimic_y": 737.09,
+      "position_pct": {
+        "x": 14.97,
+        "y": 69.45
+      }
+    },
+    {
+      "id": "DEV-L6P-024",
+      "type": "SMOKE_DETECTOR",
+      "label": "S",
+      "description": "Smoke Detector",
+      "zone": 24,
+      "cad_x": -3586.07,
+      "cad_y": -1383.36,
+      "mimic_x": 3931.5,
+      "mimic_y": 738.48,
+      "position_pct": {
+        "x": 29.61,
+        "y": 68.78
+      }
+    },
+    {
+      "id": "DEV-L6P-025",
+      "type": "SMOKE_DETECTOR",
+      "label": "S",
+      "description": "Smoke Detector",
+      "zone": 23,
+      "cad_x": -3590.91,
+      "cad_y": -1387.23,
+      "mimic_x": 3920.43,
+      "mimic_y": 732.76,
+      "position_pct": {
+        "x": 27.71,
+        "y": 71.53
+      }
+    },
+    {
+      "id": "DEV-L6P-026",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3576.39,
+      "cad_y": -1394.53,
+      "mimic_x": 3953.65,
+      "mimic_y": 721.97,
+      "position_pct": {
+        "x": 33.39,
+        "y": 76.71
+      }
+    },
+    {
+      "id": "DEV-L6P-027",
+      "type": "HEAT_DETECTOR",
+      "label": "H",
+      "description": "Heat Detector",
+      "zone": 26,
+      "cad_x": -3548.98,
+      "cad_y": -1394.52,
+      "mimic_x": 4016.36,
+      "mimic_y": 721.98,
+      "position_pct": {
+        "x": 44.12,
+        "y": 76.7
+      }
+    }
+  ]
+}
