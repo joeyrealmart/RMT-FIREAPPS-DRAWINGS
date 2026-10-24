@@ -1,0 +1,30 @@
+{
+  "site": "Admiral Marina Club",
+  "floor_key": "lower_ground",
+  "floor_identity": "Lower Ground Floor",
+  "title": "ADMIRAL MARINA CLUB \u2014 LOWER GROUND FLOOR",
+  "source_dxf": "sources/batch-02/ADMIRAL MARINA CLUB.dxf",
+  "runtime_inventory_status": "NOT_IN_MANIFEST",
+  "discrepancy_reason": "Site \"Admiral Marina Club\" is not present in the current 152-floor runtime manifest; source-supported drawing recovered for review.",
+  "review_status": "REVIEW_REQUIRED",
+  "entity_count": 998,
+  "device_count": 55,
+  "bounds": {
+    "min_x": -504.51,
+    "max_x": 48.07,
+    "min_y": -2088.38,
+    "max_y": -1535.46,
+    "width": 552.58,
+    "height": 552.92
+  },
+  "identity_evidence": {
+    "source_text": "ADMIRAL MARINA CLUB \u2014 LOWER GROUND FLOOR",
+    "dxf_layer": "MIMIC_SIZE",
+    "cad_region_box": [
+      -504.51,
+      48.07,
+      -2088.38,
+      -1535.46
+    ]
+  }
+}

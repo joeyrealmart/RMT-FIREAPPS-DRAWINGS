@@ -1,0 +1,30 @@
+{
+  "site": "Admiral Marina Club",
+  "floor_key": "upper",
+  "floor_identity": "Upper Floor / Plant",
+  "title": "ADMIRAL MARINA CLUB \u2014 UPPER FLOOR / PLANT",
+  "source_dxf": "sources/batch-02/ADMIRAL MARINA CLUB.dxf",
+  "runtime_inventory_status": "NOT_IN_MANIFEST",
+  "discrepancy_reason": "Site \"Admiral Marina Club\" is not present in the current 152-floor runtime manifest; source-supported drawing recovered for review.",
+  "review_status": "REVIEW_REQUIRED",
+  "entity_count": 543,
+  "device_count": 54,
+  "bounds": {
+    "min_x": 450.04,
+    "max_x": 1049.42,
+    "min_y": -2099.64,
+    "max_y": -1500.17,
+    "width": 599.38,
+    "height": 599.47
+  },
+  "identity_evidence": {
+    "source_text": "ADMIRAL MARINA CLUB \u2014 UPPER FLOOR / PLANT",
+    "dxf_layer": "MIMIC_SIZE",
+    "cad_region_box": [
+      450.04,
+      1049.42,
+      -2099.64,
+      -1500.17
+    ]
+  }
+}
