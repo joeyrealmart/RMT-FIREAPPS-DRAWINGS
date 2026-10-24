@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Admiral Marina Club — Upper Floor / Plant</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0F172A;
+            color: #F8FAFC;
+            margin: 0;
+            padding: 24px;
+        }
+        .header {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            border-left: 6px solid #F59E0B;
+        }
+        .badge-review {
+            display: inline-block;
+            background-color: #D97706;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 9999px;
+            margin-bottom: 8px;
+        }
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+        }
+        .reason {
+            background: #451A03;
+            color: #FDBA74;
+            border: 1px solid #92400E;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid #334155;
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 14px;
+            color: #94A3B8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .stat {
+            font-size: 24px;
+            font-weight: bold;
+            color: #38BDF8;
+        }
+        .img-container {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 24px;
+            border: 1px solid #334155;
+        }
+        .img-container h2 {
+            margin-top: 0;
+            font-size: 16px;
+            color: #F8FAFC;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background: #0F172A;
+            text-align: left;
+            padding: 8px 12px;
+            color: #94A3B8;
+            border-bottom: 2px solid #334155;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="badge-review">REVIEW_REQUIRED</span>
+        <h1 class="title">Admiral Marina Club — Upper Floor / Plant</h1>
+        <div>Source File: <code>sources/batch-02/ADMIRAL MARINA CLUB.dxf</code></div>
+        <div class="reason">
+            <strong>Discrepancy / Review Reason:</strong> Site "Admiral Marina Club" is not present in the current 152-floor runtime manifest; source-supported drawing recovered for review.
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Floor Identity</h3>
+            <div class="stat">Upper Floor / Plant</div>
+        </div>
+        <div class="card">
+            <h3>CAD Geometry Entities</h3>
+            <div class="stat">543</div>
+        </div>
+        <div class="card">
+            <h3>Device Pins Extracted</h3>
+            <div class="stat">54</div>
+        </div>
+        <div class="card">
+            <h3>Bounding Extents</h3>
+            <div style="font-size: 14px; color: #E2E8F0; margin-top: 6px;">
+                X: [450.04, 1049.42]<br>
+                Y: [-2099.64, -1500.17]
+            </div>
+        </div>
+    </div>
+
+    <div class="img-container">
+        <h2>1. Side-by-Side Source vs Final Comparison</h2>
+        <img src="admiral_upper_visual_comparison.png" alt="Visual Comparison">
+    </div>
+
+    <div class="img-container">
+        <h2>2. High-Resolution Mimic Floorplan PNG</h2>
+        <img src="admiral_upper_mimic.png" alt="High Res Mimic PNG">
+    </div>
+
+    <div class="card">
+        <h3>Extracted Source Device Pins (Sample)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Device ID</th>
+                    <th>Code</th>
+                    <th>Type</th>
+                    <th>DXF Coordinates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-001</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(456.86, -1915.87)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-002</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(485.36, -1898.75)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-003</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(505.55, -1890.14)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-004</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(492.85, -1905.21)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-005</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(502.59, -1935.3)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-006</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">BG</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Break Glass</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(521.74, -1897.99)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-007</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(532.02, -1901.05)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-008</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(559.71, -1863.1)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-009</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">FS</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Flow Switch</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(531.49, -1994.97)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-010</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">HR</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Hose Reel</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(567.34, -1994.72)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-011</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(575.7, -1835.33)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-012</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(532.34, -1795.13)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-013</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">BG</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Break Glass</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(587.46, -1813.16)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-014</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(583.39, -1798.67)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-015</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">BG</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Break Glass</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(553.48, -1782.08)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-016</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(549.41, -1767.59)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-017</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">BG</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Break Glass</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(571.73, -1788.89)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-018</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(567.67, -1774.4)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-019</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(599.41, -1762.23)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-UPPER-020</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">H</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Heat Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(536.3, -1732.22)</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

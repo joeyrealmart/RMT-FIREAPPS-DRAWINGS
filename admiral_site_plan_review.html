@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Admiral Marina Club — Site Plan</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0F172A;
+            color: #F8FAFC;
+            margin: 0;
+            padding: 24px;
+        }
+        .header {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            border-left: 6px solid #F59E0B;
+        }
+        .badge-review {
+            display: inline-block;
+            background-color: #D97706;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 9999px;
+            margin-bottom: 8px;
+        }
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+        }
+        .reason {
+            background: #451A03;
+            color: #FDBA74;
+            border: 1px solid #92400E;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid #334155;
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 14px;
+            color: #94A3B8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .stat {
+            font-size: 24px;
+            font-weight: bold;
+            color: #38BDF8;
+        }
+        .img-container {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 24px;
+            border: 1px solid #334155;
+        }
+        .img-container h2 {
+            margin-top: 0;
+            font-size: 16px;
+            color: #F8FAFC;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background: #0F172A;
+            text-align: left;
+            padding: 8px 12px;
+            color: #94A3B8;
+            border-bottom: 2px solid #334155;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="badge-review">REVIEW_REQUIRED</span>
+        <h1 class="title">Admiral Marina Club — Site Plan</h1>
+        <div>Source File: <code>sources/batch-02/ADMIRAL MARINA CLUB.dxf</code></div>
+        <div class="reason">
+            <strong>Discrepancy / Review Reason:</strong> Site "Admiral Marina Club" is not present in the current 152-floor runtime manifest; source-supported drawing recovered for review.
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Floor Identity</h3>
+            <div class="stat">Site Plan</div>
+        </div>
+        <div class="card">
+            <h3>CAD Geometry Entities</h3>
+            <div class="stat">1163</div>
+        </div>
+        <div class="card">
+            <h3>Device Pins Extracted</h3>
+            <div class="stat">0</div>
+        </div>
+        <div class="card">
+            <h3>Bounding Extents</h3>
+            <div style="font-size: 14px; color: #E2E8F0; margin-top: 6px;">
+                X: [594.56, 1298.24]<br>
+                Y: [-2363.36, -1925.55]
+            </div>
+        </div>
+    </div>
+
+    <div class="img-container">
+        <h2>1. Side-by-Side Source vs Final Comparison</h2>
+        <img src="admiral_site_plan_visual_comparison.png" alt="Visual Comparison">
+    </div>
+
+    <div class="img-container">
+        <h2>2. High-Resolution Mimic Floorplan PNG</h2>
+        <img src="admiral_site_plan_mimic.png" alt="High Res Mimic PNG">
+    </div>
+
+    <div class="card">
+        <h3>Extracted Source Device Pins (Sample)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Device ID</th>
+                    <th>Code</th>
+                    <th>Type</th>
+                    <th>DXF Coordinates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td colspan="4" style="padding: 12px; color: #94A3B8; text-align: center;">No standalone devices mapped on this floor plan layout.</td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

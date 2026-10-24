@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Admiral Marina Club — Lower Ground Floor</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0F172A;
+            color: #F8FAFC;
+            margin: 0;
+            padding: 24px;
+        }
+        .header {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            border-left: 6px solid #F59E0B;
+        }
+        .badge-review {
+            display: inline-block;
+            background-color: #D97706;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 9999px;
+            margin-bottom: 8px;
+        }
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+        }
+        .reason {
+            background: #451A03;
+            color: #FDBA74;
+            border: 1px solid #92400E;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid #334155;
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 14px;
+            color: #94A3B8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .stat {
+            font-size: 24px;
+            font-weight: bold;
+            color: #38BDF8;
+        }
+        .img-container {
+            background: #1E293B;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 24px;
+            border: 1px solid #334155;
+        }
+        .img-container h2 {
+            margin-top: 0;
+            font-size: 16px;
+            color: #F8FAFC;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background: #0F172A;
+            text-align: left;
+            padding: 8px 12px;
+            color: #94A3B8;
+            border-bottom: 2px solid #334155;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="badge-review">REVIEW_REQUIRED</span>
+        <h1 class="title">Admiral Marina Club — Lower Ground Floor</h1>
+        <div>Source File: <code>sources/batch-02/ADMIRAL MARINA CLUB.dxf</code></div>
+        <div class="reason">
+            <strong>Discrepancy / Review Reason:</strong> Site "Admiral Marina Club" is not present in the current 152-floor runtime manifest; source-supported drawing recovered for review.
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Floor Identity</h3>
+            <div class="stat">Lower Ground Floor</div>
+        </div>
+        <div class="card">
+            <h3>CAD Geometry Entities</h3>
+            <div class="stat">998</div>
+        </div>
+        <div class="card">
+            <h3>Device Pins Extracted</h3>
+            <div class="stat">55</div>
+        </div>
+        <div class="card">
+            <h3>Bounding Extents</h3>
+            <div style="font-size: 14px; color: #E2E8F0; margin-top: 6px;">
+                X: [-504.51, 48.07]<br>
+                Y: [-2088.38, -1535.46]
+            </div>
+        </div>
+    </div>
+
+    <div class="img-container">
+        <h2>1. Side-by-Side Source vs Final Comparison</h2>
+        <img src="admiral_lower_ground_visual_comparison.png" alt="Visual Comparison">
+    </div>
+
+    <div class="img-container">
+        <h2>2. High-Resolution Mimic Floorplan PNG</h2>
+        <img src="admiral_lower_ground_mimic.png" alt="High Res Mimic PNG">
+    </div>
+
+    <div class="card">
+        <h3>Extracted Source Device Pins (Sample)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Device ID</th>
+                    <th>Code</th>
+                    <th>Type</th>
+                    <th>DXF Coordinates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-001</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-293.06, -1694.13)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-002</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-264.04, -1661.34)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-003</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-233.92, -1646.13)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-004</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">CO2</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">CO2 Extinguisher</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-274.65, -1620.96)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-005</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">BG</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Break Glass</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-315.45, -1665.96)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-006</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-308.04, -1672.17)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-007</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">HR</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Hose Reel</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-230.41, -1724.62)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-008</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-236.31, -1709.66)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-009</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-232.25, -1692.54)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-010</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-213.43, -1695.46)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-011</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">CO2</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">CO2 Extinguisher</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-211.56, -1656.15)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-012</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-196.31, -1678.57)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-013</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-212.49, -1638.06)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-014</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-255.62, -1670.6)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-015</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">HR</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Hose Reel</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-318.31, -1742.39)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-016</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">BG</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Break Glass</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-334.75, -1735.9)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-017</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-327.35, -1742.11)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-018</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">CO2</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">CO2 Extinguisher</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-277.74, -1774.2)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-019</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">S</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Smoke Detector</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-268.9, -1793.2)</td>
+            </tr><tr>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">ADM-LOWER_GROUND-020</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;"><span style="background: #1E293B; color: #38BDF8; padding: 2px 6px; border-radius: 4px; font-weight: bold;">DP</span></td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">Dry Powder</td>
+                <td style="padding: 6px 12px; border-bottom: 1px solid #334155;">(-215.45, -1795.64)</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

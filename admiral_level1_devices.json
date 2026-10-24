@@ -1,0 +1,452 @@
+[
+  {
+    "id": "ADM-LEVEL1-001",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1541.38,
+    "dxf_y": -1400.83,
+    "layer": "0",
+    "source_cad_x": 7423.45,
+    "source_cad_y": 748.01
+  },
+  {
+    "id": "ADM-LEVEL1-002",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1541.62,
+    "dxf_y": -1435.17,
+    "layer": "FIRE",
+    "source_cad_x": 7423.57,
+    "source_cad_y": 733.36
+  },
+  {
+    "id": "ADM-LEVEL1-003",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": 1538.85,
+    "dxf_y": -1444.78,
+    "layer": "TEXT",
+    "source_cad_x": 7422.28,
+    "source_cad_y": 729.26
+  },
+  {
+    "id": "ADM-LEVEL1-004",
+    "code": "FS",
+    "type": "Flow Switch",
+    "dxf_x": 1541.28,
+    "dxf_y": -1460.09,
+    "layer": "0",
+    "source_cad_x": 7423.41,
+    "source_cad_y": 722.74
+  },
+  {
+    "id": "ADM-LEVEL1-005",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1029.02,
+    "dxf_y": -1540.99,
+    "layer": "0",
+    "source_cad_x": 7186.05,
+    "source_cad_y": 688.24
+  },
+  {
+    "id": "ADM-LEVEL1-006",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1093.52,
+    "dxf_y": -1591.35,
+    "layer": "0",
+    "source_cad_x": 7215.94,
+    "source_cad_y": 666.76
+  },
+  {
+    "id": "ADM-LEVEL1-007",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1100.48,
+    "dxf_y": -1512.01,
+    "layer": "0",
+    "source_cad_x": 7219.16,
+    "source_cad_y": 700.59
+  },
+  {
+    "id": "ADM-LEVEL1-008",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1122.79,
+    "dxf_y": -1586.91,
+    "layer": "0",
+    "source_cad_x": 7229.5,
+    "source_cad_y": 668.65
+  },
+  {
+    "id": "ADM-LEVEL1-009",
+    "code": "FS",
+    "type": "Flow Switch",
+    "dxf_x": 1072.43,
+    "dxf_y": -1606.25,
+    "layer": "0",
+    "source_cad_x": 7206.17,
+    "source_cad_y": 660.41
+  },
+  {
+    "id": "ADM-LEVEL1-010",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1126.21,
+    "dxf_y": -1603.61,
+    "layer": "TEXT",
+    "source_cad_x": 7231.08,
+    "source_cad_y": 661.53
+  },
+  {
+    "id": "ADM-LEVEL1-011",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1136.76,
+    "dxf_y": -1639.28,
+    "layer": "TEXT",
+    "source_cad_x": 7235.97,
+    "source_cad_y": 646.32
+  },
+  {
+    "id": "ADM-LEVEL1-012",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1154.27,
+    "dxf_y": -1646.87,
+    "layer": "TEXT",
+    "source_cad_x": 7244.09,
+    "source_cad_y": 643.08
+  },
+  {
+    "id": "ADM-LEVEL1-013",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 1151.28,
+    "dxf_y": -1629.77,
+    "layer": "TEXT",
+    "source_cad_x": 7242.7,
+    "source_cad_y": 650.38
+  },
+  {
+    "id": "ADM-LEVEL1-014",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1182.62,
+    "dxf_y": -1660.62,
+    "layer": "0",
+    "source_cad_x": 7257.22,
+    "source_cad_y": 637.22
+  },
+  {
+    "id": "ADM-LEVEL1-015",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 1100.85,
+    "dxf_y": -1662.52,
+    "layer": "0",
+    "source_cad_x": 7219.33,
+    "source_cad_y": 636.41
+  },
+  {
+    "id": "ADM-LEVEL1-016",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1147.79,
+    "dxf_y": -1593.18,
+    "layer": "TEXT",
+    "source_cad_x": 7241.08,
+    "source_cad_y": 665.98
+  },
+  {
+    "id": "ADM-LEVEL1-017",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": 1157.52,
+    "dxf_y": -1587.41,
+    "layer": "TEXT",
+    "source_cad_x": 7245.59,
+    "source_cad_y": 668.44
+  },
+  {
+    "id": "ADM-LEVEL1-018",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": 1165.51,
+    "dxf_y": -1581.86,
+    "layer": "TEXT",
+    "source_cad_x": 7249.29,
+    "source_cad_y": 670.81
+  },
+  {
+    "id": "ADM-LEVEL1-019",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 1203.85,
+    "dxf_y": -1565.09,
+    "layer": "TEXT",
+    "source_cad_x": 7267.06,
+    "source_cad_y": 677.96
+  },
+  {
+    "id": "ADM-LEVEL1-020",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1212.53,
+    "dxf_y": -1572.99,
+    "layer": "TEXT",
+    "source_cad_x": 7271.08,
+    "source_cad_y": 674.59
+  },
+  {
+    "id": "ADM-LEVEL1-021",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1132.41,
+    "dxf_y": -1562.81,
+    "layer": "0",
+    "source_cad_x": 7233.96,
+    "source_cad_y": 678.93
+  },
+  {
+    "id": "ADM-LEVEL1-022",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1145.46,
+    "dxf_y": -1552.21,
+    "layer": "0",
+    "source_cad_x": 7240.01,
+    "source_cad_y": 683.45
+  },
+  {
+    "id": "ADM-LEVEL1-023",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1250.42,
+    "dxf_y": -1737.95,
+    "layer": "0",
+    "source_cad_x": 7288.64,
+    "source_cad_y": 604.24
+  },
+  {
+    "id": "ADM-LEVEL1-024",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1237.97,
+    "dxf_y": -1750.38,
+    "layer": "TEXT",
+    "source_cad_x": 7282.87,
+    "source_cad_y": 598.94
+  },
+  {
+    "id": "ADM-LEVEL1-025",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 1294.79,
+    "dxf_y": -1724.52,
+    "layer": "TEXT",
+    "source_cad_x": 7309.19,
+    "source_cad_y": 609.97
+  },
+  {
+    "id": "ADM-LEVEL1-026",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1303.47,
+    "dxf_y": -1732.42,
+    "layer": "TEXT",
+    "source_cad_x": 7313.22,
+    "source_cad_y": 606.6
+  },
+  {
+    "id": "ADM-LEVEL1-027",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 1377.95,
+    "dxf_y": -1724.36,
+    "layer": "TEXT",
+    "source_cad_x": 7347.73,
+    "source_cad_y": 610.04
+  },
+  {
+    "id": "ADM-LEVEL1-028",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1386.63,
+    "dxf_y": -1732.26,
+    "layer": "TEXT",
+    "source_cad_x": 7351.75,
+    "source_cad_y": 606.67
+  },
+  {
+    "id": "ADM-LEVEL1-029",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 1355.49,
+    "dxf_y": -1743.35,
+    "layer": "0",
+    "source_cad_x": 7337.32,
+    "source_cad_y": 601.94
+  },
+  {
+    "id": "ADM-LEVEL1-030",
+    "code": "FS",
+    "type": "Flow Switch",
+    "dxf_x": 1468.57,
+    "dxf_y": -1679.66,
+    "layer": "0",
+    "source_cad_x": 7389.71,
+    "source_cad_y": 629.1
+  },
+  {
+    "id": "ADM-LEVEL1-031",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 1474.97,
+    "dxf_y": -1703.83,
+    "layer": "0",
+    "source_cad_x": 7392.68,
+    "source_cad_y": 618.79
+  },
+  {
+    "id": "ADM-LEVEL1-032",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 1442.41,
+    "dxf_y": -1590.9,
+    "layer": "TEXT",
+    "source_cad_x": 7377.6,
+    "source_cad_y": 666.95
+  },
+  {
+    "id": "ADM-LEVEL1-033",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1451.09,
+    "dxf_y": -1598.8,
+    "layer": "TEXT",
+    "source_cad_x": 7381.62,
+    "source_cad_y": 663.58
+  },
+  {
+    "id": "ADM-LEVEL1-034",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1474.18,
+    "dxf_y": -1614.86,
+    "layer": "0",
+    "source_cad_x": 7392.32,
+    "source_cad_y": 656.73
+  },
+  {
+    "id": "ADM-LEVEL1-035",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1516.32,
+    "dxf_y": -1667.04,
+    "layer": "0",
+    "source_cad_x": 7411.84,
+    "source_cad_y": 634.48
+  },
+  {
+    "id": "ADM-LEVEL1-036",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1530.46,
+    "dxf_y": -1650.25,
+    "layer": "0",
+    "source_cad_x": 7418.39,
+    "source_cad_y": 641.64
+  },
+  {
+    "id": "ADM-LEVEL1-037",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1524.89,
+    "dxf_y": -1594.83,
+    "layer": "0",
+    "source_cad_x": 7415.81,
+    "source_cad_y": 665.28
+  },
+  {
+    "id": "ADM-LEVEL1-038",
+    "code": "H",
+    "type": "Heat Detector",
+    "dxf_x": 1189.03,
+    "dxf_y": -2009.05,
+    "layer": "0",
+    "source_cad_x": 7260.19,
+    "source_cad_y": 488.63
+  },
+  {
+    "id": "ADM-LEVEL1-039",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 1259.93,
+    "dxf_y": -2026.24,
+    "layer": "0",
+    "source_cad_x": 7293.04,
+    "source_cad_y": 481.3
+  },
+  {
+    "id": "ADM-LEVEL1-040",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1252.17,
+    "dxf_y": -2034.07,
+    "layer": "TEXT",
+    "source_cad_x": 7289.45,
+    "source_cad_y": 477.97
+  },
+  {
+    "id": "ADM-LEVEL1-041",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 1135.32,
+    "dxf_y": -2054.02,
+    "layer": "0",
+    "source_cad_x": 7235.3,
+    "source_cad_y": 469.46
+  },
+  {
+    "id": "ADM-LEVEL1-042",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 1127.92,
+    "dxf_y": -2062.25,
+    "layer": "TEXT",
+    "source_cad_x": 7231.88,
+    "source_cad_y": 465.94
+  },
+  {
+    "id": "ADM-LEVEL1-043",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1024.86,
+    "dxf_y": -1689.21,
+    "layer": "0",
+    "source_cad_x": 7184.12,
+    "source_cad_y": 625.03
+  },
+  {
+    "id": "ADM-LEVEL1-044",
+    "code": "A/C",
+    "type": "Air Con Interlock",
+    "dxf_x": 1470.02,
+    "dxf_y": -1621.56,
+    "layer": "0",
+    "source_cad_x": 7390.39,
+    "source_cad_y": 653.88
+  },
+  {
+    "id": "ADM-LEVEL1-045",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 1492.94,
+    "dxf_y": -1680.24,
+    "layer": "0",
+    "source_cad_x": 7401.01,
+    "source_cad_y": 628.85
+  }
+]

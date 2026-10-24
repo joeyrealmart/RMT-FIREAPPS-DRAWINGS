@@ -1,0 +1,552 @@
+[
+  {
+    "id": "ADM-LOWER_GROUND-001",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -293.06,
+    "dxf_y": -1694.13,
+    "layer": "0",
+    "source_cad_x": 6714.8,
+    "source_cad_y": 663.91
+  },
+  {
+    "id": "ADM-LOWER_GROUND-002",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -264.04,
+    "dxf_y": -1661.34,
+    "layer": "0",
+    "source_cad_x": 6730.56,
+    "source_cad_y": 681.7
+  },
+  {
+    "id": "ADM-LOWER_GROUND-003",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -233.92,
+    "dxf_y": -1646.13,
+    "layer": "0",
+    "source_cad_x": 6746.91,
+    "source_cad_y": 689.95
+  },
+  {
+    "id": "ADM-LOWER_GROUND-004",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -274.65,
+    "dxf_y": -1620.96,
+    "layer": "TEXT",
+    "source_cad_x": 6724.79,
+    "source_cad_y": 703.61
+  },
+  {
+    "id": "ADM-LOWER_GROUND-005",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -315.45,
+    "dxf_y": -1665.96,
+    "layer": "TEXT",
+    "source_cad_x": 6702.65,
+    "source_cad_y": 679.2
+  },
+  {
+    "id": "ADM-LOWER_GROUND-006",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -308.04,
+    "dxf_y": -1672.17,
+    "layer": "TEXT",
+    "source_cad_x": 6706.67,
+    "source_cad_y": 675.83
+  },
+  {
+    "id": "ADM-LOWER_GROUND-007",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": -230.41,
+    "dxf_y": -1724.62,
+    "layer": "0",
+    "source_cad_x": 6748.81,
+    "source_cad_y": 647.37
+  },
+  {
+    "id": "ADM-LOWER_GROUND-008",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -236.31,
+    "dxf_y": -1709.66,
+    "layer": "0",
+    "source_cad_x": 6745.61,
+    "source_cad_y": 655.49
+  },
+  {
+    "id": "ADM-LOWER_GROUND-009",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -232.25,
+    "dxf_y": -1692.54,
+    "layer": "0",
+    "source_cad_x": 6747.82,
+    "source_cad_y": 664.77
+  },
+  {
+    "id": "ADM-LOWER_GROUND-010",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -213.43,
+    "dxf_y": -1695.46,
+    "layer": "0",
+    "source_cad_x": 6758.03,
+    "source_cad_y": 663.19
+  },
+  {
+    "id": "ADM-LOWER_GROUND-011",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -211.56,
+    "dxf_y": -1656.15,
+    "layer": "TEXT",
+    "source_cad_x": 6759.04,
+    "source_cad_y": 684.52
+  },
+  {
+    "id": "ADM-LOWER_GROUND-012",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -196.31,
+    "dxf_y": -1678.57,
+    "layer": "TEXT",
+    "source_cad_x": 6767.33,
+    "source_cad_y": 672.35
+  },
+  {
+    "id": "ADM-LOWER_GROUND-013",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -212.49,
+    "dxf_y": -1638.06,
+    "layer": "TEXT",
+    "source_cad_x": 6758.54,
+    "source_cad_y": 694.33
+  },
+  {
+    "id": "ADM-LOWER_GROUND-014",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -255.62,
+    "dxf_y": -1670.6,
+    "layer": "TEXT",
+    "source_cad_x": 6735.13,
+    "source_cad_y": 676.68
+  },
+  {
+    "id": "ADM-LOWER_GROUND-015",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": -318.31,
+    "dxf_y": -1742.39,
+    "layer": "0",
+    "source_cad_x": 6701.09,
+    "source_cad_y": 637.73
+  },
+  {
+    "id": "ADM-LOWER_GROUND-016",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -334.75,
+    "dxf_y": -1735.9,
+    "layer": "TEXT",
+    "source_cad_x": 6692.16,
+    "source_cad_y": 641.25
+  },
+  {
+    "id": "ADM-LOWER_GROUND-017",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -327.35,
+    "dxf_y": -1742.11,
+    "layer": "TEXT",
+    "source_cad_x": 6696.19,
+    "source_cad_y": 637.88
+  },
+  {
+    "id": "ADM-LOWER_GROUND-018",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -277.74,
+    "dxf_y": -1774.2,
+    "layer": "TEXT",
+    "source_cad_x": 6723.12,
+    "source_cad_y": 620.46
+  },
+  {
+    "id": "ADM-LOWER_GROUND-019",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -268.9,
+    "dxf_y": -1793.2,
+    "layer": "0",
+    "source_cad_x": 6727.92,
+    "source_cad_y": 610.15
+  },
+  {
+    "id": "ADM-LOWER_GROUND-020",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -215.45,
+    "dxf_y": -1795.64,
+    "layer": "TEXT",
+    "source_cad_x": 6756.94,
+    "source_cad_y": 608.83
+  },
+  {
+    "id": "ADM-LOWER_GROUND-021",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -201.35,
+    "dxf_y": -1845.46,
+    "layer": "TEXT",
+    "source_cad_x": 6764.59,
+    "source_cad_y": 581.8
+  },
+  {
+    "id": "ADM-LOWER_GROUND-022",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -193.94,
+    "dxf_y": -1851.67,
+    "layer": "TEXT",
+    "source_cad_x": 6768.61,
+    "source_cad_y": 578.43
+  },
+  {
+    "id": "ADM-LOWER_GROUND-023",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": -171.29,
+    "dxf_y": -1845.63,
+    "layer": "0",
+    "source_cad_x": 6780.91,
+    "source_cad_y": 581.71
+  },
+  {
+    "id": "ADM-LOWER_GROUND-024",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -153.29,
+    "dxf_y": -1845.46,
+    "layer": "TEXT",
+    "source_cad_x": 6790.68,
+    "source_cad_y": 581.8
+  },
+  {
+    "id": "ADM-LOWER_GROUND-025",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -145.88,
+    "dxf_y": -1851.67,
+    "layer": "TEXT",
+    "source_cad_x": 6794.7,
+    "source_cad_y": 578.43
+  },
+  {
+    "id": "ADM-LOWER_GROUND-026",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -165.22,
+    "dxf_y": -1794.82,
+    "layer": "0",
+    "source_cad_x": 6784.2,
+    "source_cad_y": 609.28
+  },
+  {
+    "id": "ADM-LOWER_GROUND-027",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -176.22,
+    "dxf_y": -1794.6,
+    "layer": "0",
+    "source_cad_x": 6778.23,
+    "source_cad_y": 609.4
+  },
+  {
+    "id": "ADM-LOWER_GROUND-028",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -190.76,
+    "dxf_y": -1773.59,
+    "layer": "TEXT",
+    "source_cad_x": 6770.34,
+    "source_cad_y": 620.79
+  },
+  {
+    "id": "ADM-LOWER_GROUND-029",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": -114.5,
+    "dxf_y": -1851.95,
+    "layer": "0",
+    "source_cad_x": 6811.74,
+    "source_cad_y": 578.28
+  },
+  {
+    "id": "ADM-LOWER_GROUND-030",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -130.94,
+    "dxf_y": -1845.46,
+    "layer": "TEXT",
+    "source_cad_x": 6802.82,
+    "source_cad_y": 581.8
+  },
+  {
+    "id": "ADM-LOWER_GROUND-031",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -123.53,
+    "dxf_y": -1851.67,
+    "layer": "TEXT",
+    "source_cad_x": 6806.84,
+    "source_cad_y": 578.43
+  },
+  {
+    "id": "ADM-LOWER_GROUND-032",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": -18.15,
+    "dxf_y": -1843.88,
+    "layer": "0",
+    "source_cad_x": 6864.05,
+    "source_cad_y": 582.66
+  },
+  {
+    "id": "ADM-LOWER_GROUND-033",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -34.6,
+    "dxf_y": -1837.39,
+    "layer": "TEXT",
+    "source_cad_x": 6855.12,
+    "source_cad_y": 586.18
+  },
+  {
+    "id": "ADM-LOWER_GROUND-034",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -27.19,
+    "dxf_y": -1843.6,
+    "layer": "TEXT",
+    "source_cad_x": 6859.14,
+    "source_cad_y": 582.81
+  },
+  {
+    "id": "ADM-LOWER_GROUND-035",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 3.46,
+    "dxf_y": -1775.0,
+    "layer": "0",
+    "source_cad_x": 6875.78,
+    "source_cad_y": 620.03
+  },
+  {
+    "id": "ADM-LOWER_GROUND-036",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -9.58,
+    "dxf_y": -1781.04,
+    "layer": "TEXT",
+    "source_cad_x": 6868.7,
+    "source_cad_y": 616.76
+  },
+  {
+    "id": "ADM-LOWER_GROUND-037",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 22.85,
+    "dxf_y": -1789.25,
+    "layer": "0",
+    "source_cad_x": 6886.31,
+    "source_cad_y": 612.3
+  },
+  {
+    "id": "ADM-LOWER_GROUND-038",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 39.91,
+    "dxf_y": -1789.08,
+    "layer": "TEXT",
+    "source_cad_x": 6895.57,
+    "source_cad_y": 612.39
+  },
+  {
+    "id": "ADM-LOWER_GROUND-039",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 47.32,
+    "dxf_y": -1795.29,
+    "layer": "TEXT",
+    "source_cad_x": 6899.6,
+    "source_cad_y": 609.03
+  },
+  {
+    "id": "ADM-LOWER_GROUND-040",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -6.82,
+    "dxf_y": -1731.32,
+    "layer": "TEXT",
+    "source_cad_x": 6870.2,
+    "source_cad_y": 643.73
+  },
+  {
+    "id": "ADM-LOWER_GROUND-041",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 0.59,
+    "dxf_y": -1737.53,
+    "layer": "TEXT",
+    "source_cad_x": 6874.23,
+    "source_cad_y": 640.36
+  },
+  {
+    "id": "ADM-LOWER_GROUND-042",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 29.97,
+    "dxf_y": -1730.43,
+    "layer": "0",
+    "source_cad_x": 6890.18,
+    "source_cad_y": 644.22
+  },
+  {
+    "id": "ADM-LOWER_GROUND-043",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": 21.62,
+    "dxf_y": -1702.08,
+    "layer": "TEXT",
+    "source_cad_x": 6885.64,
+    "source_cad_y": 659.59
+  },
+  {
+    "id": "ADM-LOWER_GROUND-044",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -57.9,
+    "dxf_y": -1680.98,
+    "layer": "0",
+    "source_cad_x": 6842.47,
+    "source_cad_y": 671.04
+  },
+  {
+    "id": "ADM-LOWER_GROUND-045",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -54.01,
+    "dxf_y": -1706.43,
+    "layer": "TEXT",
+    "source_cad_x": 6844.58,
+    "source_cad_y": 657.24
+  },
+  {
+    "id": "ADM-LOWER_GROUND-046",
+    "code": "FS",
+    "type": "Flow Switch",
+    "dxf_x": -109.48,
+    "dxf_y": -1744.31,
+    "layer": "0",
+    "source_cad_x": 6814.47,
+    "source_cad_y": 636.68
+  },
+  {
+    "id": "ADM-LOWER_GROUND-047",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -114.4,
+    "dxf_y": -1712.76,
+    "layer": "0",
+    "source_cad_x": 6811.8,
+    "source_cad_y": 653.8
+  },
+  {
+    "id": "ADM-LOWER_GROUND-048",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -130.05,
+    "dxf_y": -1713.04,
+    "layer": "0",
+    "source_cad_x": 6803.3,
+    "source_cad_y": 653.65
+  },
+  {
+    "id": "ADM-LOWER_GROUND-049",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -193.11,
+    "dxf_y": -1723.13,
+    "layer": "TEXT",
+    "source_cad_x": 6769.07,
+    "source_cad_y": 648.17
+  },
+  {
+    "id": "ADM-LOWER_GROUND-050",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": -162.79,
+    "dxf_y": -1736.5,
+    "layer": "TEXT",
+    "source_cad_x": 6785.52,
+    "source_cad_y": 640.92
+  },
+  {
+    "id": "ADM-LOWER_GROUND-051",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -151.74,
+    "dxf_y": -1973.04,
+    "layer": "0",
+    "source_cad_x": 6791.53,
+    "source_cad_y": 512.58
+  },
+  {
+    "id": "ADM-LOWER_GROUND-052",
+    "code": "FS",
+    "type": "Flow Switch",
+    "dxf_x": -189.76,
+    "dxf_y": -1979.85,
+    "layer": "0",
+    "source_cad_x": 6770.88,
+    "source_cad_y": 508.89
+  },
+  {
+    "id": "ADM-LOWER_GROUND-053",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": -315.45,
+    "dxf_y": -1641.06,
+    "layer": "TEXT",
+    "source_cad_x": 6702.64,
+    "source_cad_y": 692.71
+  },
+  {
+    "id": "ADM-LOWER_GROUND-054",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": -308.04,
+    "dxf_y": -1647.27,
+    "layer": "TEXT",
+    "source_cad_x": 6706.67,
+    "source_cad_y": 689.34
+  },
+  {
+    "id": "ADM-LOWER_GROUND-055",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": -336.68,
+    "dxf_y": -1685.71,
+    "layer": "0",
+    "source_cad_x": 6691.12,
+    "source_cad_y": 668.48
+  }
+]

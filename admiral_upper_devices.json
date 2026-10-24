@@ -1,0 +1,542 @@
+[
+  {
+    "id": "ADM-UPPER-001",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 456.86,
+    "dxf_y": -1915.87,
+    "layer": "TEXT",
+    "source_cad_x": 7053.42,
+    "source_cad_y": 611.31
+  },
+  {
+    "id": "ADM-UPPER-002",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 485.36,
+    "dxf_y": -1898.75,
+    "layer": "TEXT",
+    "source_cad_x": 7067.68,
+    "source_cad_y": 617.02
+  },
+  {
+    "id": "ADM-UPPER-003",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 505.55,
+    "dxf_y": -1890.14,
+    "layer": "TEXT",
+    "source_cad_x": 7077.78,
+    "source_cad_y": 619.9
+  },
+  {
+    "id": "ADM-UPPER-004",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 492.85,
+    "dxf_y": -1905.21,
+    "layer": "0",
+    "source_cad_x": 7071.43,
+    "source_cad_y": 614.87
+  },
+  {
+    "id": "ADM-UPPER-005",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 502.59,
+    "dxf_y": -1935.3,
+    "layer": "TEXT",
+    "source_cad_x": 7076.3,
+    "source_cad_y": 604.83
+  },
+  {
+    "id": "ADM-UPPER-006",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 521.74,
+    "dxf_y": -1897.99,
+    "layer": "TEXT",
+    "source_cad_x": 7085.89,
+    "source_cad_y": 617.28
+  },
+  {
+    "id": "ADM-UPPER-007",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 532.02,
+    "dxf_y": -1901.05,
+    "layer": "TEXT",
+    "source_cad_x": 7091.03,
+    "source_cad_y": 616.26
+  },
+  {
+    "id": "ADM-UPPER-008",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 559.71,
+    "dxf_y": -1863.1,
+    "layer": "0",
+    "source_cad_x": 7104.89,
+    "source_cad_y": 628.92
+  },
+  {
+    "id": "ADM-UPPER-009",
+    "code": "FS",
+    "type": "Flow Switch",
+    "dxf_x": 531.49,
+    "dxf_y": -1994.97,
+    "layer": "0",
+    "source_cad_x": 7090.77,
+    "source_cad_y": 584.92
+  },
+  {
+    "id": "ADM-UPPER-010",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 567.34,
+    "dxf_y": -1994.72,
+    "layer": "0",
+    "source_cad_x": 7108.71,
+    "source_cad_y": 585.01
+  },
+  {
+    "id": "ADM-UPPER-011",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 575.7,
+    "dxf_y": -1835.33,
+    "layer": "TEXT",
+    "source_cad_x": 7112.9,
+    "source_cad_y": 638.18
+  },
+  {
+    "id": "ADM-UPPER-012",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 532.34,
+    "dxf_y": -1795.13,
+    "layer": "TEXT",
+    "source_cad_x": 7091.19,
+    "source_cad_y": 651.59
+  },
+  {
+    "id": "ADM-UPPER-013",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 587.46,
+    "dxf_y": -1813.16,
+    "layer": "TEXT",
+    "source_cad_x": 7118.78,
+    "source_cad_y": 645.58
+  },
+  {
+    "id": "ADM-UPPER-014",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 583.39,
+    "dxf_y": -1798.67,
+    "layer": "TEXT",
+    "source_cad_x": 7116.74,
+    "source_cad_y": 650.41
+  },
+  {
+    "id": "ADM-UPPER-015",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 553.48,
+    "dxf_y": -1782.08,
+    "layer": "TEXT",
+    "source_cad_x": 7101.77,
+    "source_cad_y": 655.95
+  },
+  {
+    "id": "ADM-UPPER-016",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 549.41,
+    "dxf_y": -1767.59,
+    "layer": "TEXT",
+    "source_cad_x": 7099.74,
+    "source_cad_y": 660.78
+  },
+  {
+    "id": "ADM-UPPER-017",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 571.73,
+    "dxf_y": -1788.89,
+    "layer": "TEXT",
+    "source_cad_x": 7110.91,
+    "source_cad_y": 653.68
+  },
+  {
+    "id": "ADM-UPPER-018",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 567.67,
+    "dxf_y": -1774.4,
+    "layer": "TEXT",
+    "source_cad_x": 7108.87,
+    "source_cad_y": 658.51
+  },
+  {
+    "id": "ADM-UPPER-019",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 599.41,
+    "dxf_y": -1762.23,
+    "layer": "0",
+    "source_cad_x": 7124.76,
+    "source_cad_y": 662.57
+  },
+  {
+    "id": "ADM-UPPER-020",
+    "code": "H",
+    "type": "Heat Detector",
+    "dxf_x": 536.3,
+    "dxf_y": -1732.22,
+    "layer": "0",
+    "source_cad_x": 7093.17,
+    "source_cad_y": 672.58
+  },
+  {
+    "id": "ADM-UPPER-021",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 721.87,
+    "dxf_y": -1685.29,
+    "layer": "0",
+    "source_cad_x": 7186.05,
+    "source_cad_y": 688.24
+  },
+  {
+    "id": "ADM-UPPER-022",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 781.57,
+    "dxf_y": -1749.67,
+    "layer": "0",
+    "source_cad_x": 7215.94,
+    "source_cad_y": 666.76
+  },
+  {
+    "id": "ADM-UPPER-023",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 788.02,
+    "dxf_y": -1648.26,
+    "layer": "0",
+    "source_cad_x": 7219.16,
+    "source_cad_y": 700.59
+  },
+  {
+    "id": "ADM-UPPER-024",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 808.67,
+    "dxf_y": -1744.0,
+    "layer": "0",
+    "source_cad_x": 7229.5,
+    "source_cad_y": 668.65
+  },
+  {
+    "id": "ADM-UPPER-025",
+    "code": "FS",
+    "type": "Flow Switch",
+    "dxf_x": 762.05,
+    "dxf_y": -1768.72,
+    "layer": "0",
+    "source_cad_x": 7206.17,
+    "source_cad_y": 660.41
+  },
+  {
+    "id": "ADM-UPPER-026",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 811.83,
+    "dxf_y": -1765.34,
+    "layer": "TEXT",
+    "source_cad_x": 7231.08,
+    "source_cad_y": 661.53
+  },
+  {
+    "id": "ADM-UPPER-027",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 821.6,
+    "dxf_y": -1810.93,
+    "layer": "TEXT",
+    "source_cad_x": 7235.97,
+    "source_cad_y": 646.32
+  },
+  {
+    "id": "ADM-UPPER-028",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 837.82,
+    "dxf_y": -1820.64,
+    "layer": "TEXT",
+    "source_cad_x": 7244.09,
+    "source_cad_y": 643.08
+  },
+  {
+    "id": "ADM-UPPER-029",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 835.05,
+    "dxf_y": -1798.78,
+    "layer": "TEXT",
+    "source_cad_x": 7242.7,
+    "source_cad_y": 650.38
+  },
+  {
+    "id": "ADM-UPPER-030",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 864.05,
+    "dxf_y": -1838.21,
+    "layer": "0",
+    "source_cad_x": 7257.22,
+    "source_cad_y": 637.22
+  },
+  {
+    "id": "ADM-UPPER-031",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 788.36,
+    "dxf_y": -1840.64,
+    "layer": "0",
+    "source_cad_x": 7219.33,
+    "source_cad_y": 636.41
+  },
+  {
+    "id": "ADM-UPPER-032",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 831.82,
+    "dxf_y": -1752.01,
+    "layer": "TEXT",
+    "source_cad_x": 7241.08,
+    "source_cad_y": 665.98
+  },
+  {
+    "id": "ADM-UPPER-033",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": 840.83,
+    "dxf_y": -1744.63,
+    "layer": "TEXT",
+    "source_cad_x": 7245.59,
+    "source_cad_y": 668.44
+  },
+  {
+    "id": "ADM-UPPER-034",
+    "code": "CO2",
+    "type": "CO2 Extinguisher",
+    "dxf_x": 848.21,
+    "dxf_y": -1737.54,
+    "layer": "TEXT",
+    "source_cad_x": 7249.29,
+    "source_cad_y": 670.81
+  },
+  {
+    "id": "ADM-UPPER-035",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 883.71,
+    "dxf_y": -1716.11,
+    "layer": "TEXT",
+    "source_cad_x": 7267.06,
+    "source_cad_y": 677.96
+  },
+  {
+    "id": "ADM-UPPER-036",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 891.74,
+    "dxf_y": -1726.2,
+    "layer": "TEXT",
+    "source_cad_x": 7271.08,
+    "source_cad_y": 674.59
+  },
+  {
+    "id": "ADM-UPPER-037",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 817.58,
+    "dxf_y": -1713.19,
+    "layer": "0",
+    "source_cad_x": 7233.96,
+    "source_cad_y": 678.93
+  },
+  {
+    "id": "ADM-UPPER-038",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 829.66,
+    "dxf_y": -1699.64,
+    "layer": "0",
+    "source_cad_x": 7240.01,
+    "source_cad_y": 683.45
+  },
+  {
+    "id": "ADM-UPPER-039",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 926.83,
+    "dxf_y": -1937.05,
+    "layer": "0",
+    "source_cad_x": 7288.64,
+    "source_cad_y": 604.24
+  },
+  {
+    "id": "ADM-UPPER-040",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 915.3,
+    "dxf_y": -1952.94,
+    "layer": "TEXT",
+    "source_cad_x": 7282.87,
+    "source_cad_y": 598.94
+  },
+  {
+    "id": "ADM-UPPER-041",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 967.9,
+    "dxf_y": -1919.89,
+    "layer": "TEXT",
+    "source_cad_x": 7309.19,
+    "source_cad_y": 609.97
+  },
+  {
+    "id": "ADM-UPPER-042",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 975.93,
+    "dxf_y": -1929.99,
+    "layer": "TEXT",
+    "source_cad_x": 7313.22,
+    "source_cad_y": 606.6
+  },
+  {
+    "id": "ADM-UPPER-043",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 1044.88,
+    "dxf_y": -1919.69,
+    "layer": "TEXT",
+    "source_cad_x": 7347.73,
+    "source_cad_y": 610.04
+  },
+  {
+    "id": "ADM-UPPER-044",
+    "code": "HR",
+    "type": "Hose Reel",
+    "dxf_x": 1024.1,
+    "dxf_y": -1943.96,
+    "layer": "0",
+    "source_cad_x": 7337.32,
+    "source_cad_y": 601.94
+  },
+  {
+    "id": "ADM-UPPER-045",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 718.01,
+    "dxf_y": -1874.76,
+    "layer": "0",
+    "source_cad_x": 7184.12,
+    "source_cad_y": 625.03
+  },
+  {
+    "id": "ADM-UPPER-046",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 527.11,
+    "dxf_y": -1838.31,
+    "layer": "TEXT",
+    "source_cad_x": 7088.58,
+    "source_cad_y": 637.19
+  },
+  {
+    "id": "ADM-UPPER-047",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 546.03,
+    "dxf_y": -1990.23,
+    "layer": "TEXT",
+    "source_cad_x": 7098.04,
+    "source_cad_y": 586.5
+  },
+  {
+    "id": "ADM-UPPER-048",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 554.07,
+    "dxf_y": -2000.32,
+    "layer": "TEXT",
+    "source_cad_x": 7102.07,
+    "source_cad_y": 583.14
+  },
+  {
+    "id": "ADM-UPPER-049",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 533.87,
+    "dxf_y": -1846.97,
+    "layer": "0",
+    "source_cad_x": 7091.96,
+    "source_cad_y": 634.3
+  },
+  {
+    "id": "ADM-UPPER-050",
+    "code": "S",
+    "type": "Smoke Detector",
+    "dxf_x": 542.68,
+    "dxf_y": -1877.52,
+    "layer": "0",
+    "source_cad_x": 7096.37,
+    "source_cad_y": 624.11
+  },
+  {
+    "id": "ADM-UPPER-051",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 555.98,
+    "dxf_y": -1695.42,
+    "layer": "TEXT",
+    "source_cad_x": 7103.03,
+    "source_cad_y": 684.86
+  },
+  {
+    "id": "ADM-UPPER-052",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 564.02,
+    "dxf_y": -1705.51,
+    "layer": "TEXT",
+    "source_cad_x": 7107.05,
+    "source_cad_y": 681.49
+  },
+  {
+    "id": "ADM-UPPER-053",
+    "code": "BG",
+    "type": "Break Glass",
+    "dxf_x": 583.82,
+    "dxf_y": -1723.51,
+    "layer": "TEXT",
+    "source_cad_x": 7116.96,
+    "source_cad_y": 675.49
+  },
+  {
+    "id": "ADM-UPPER-054",
+    "code": "DP",
+    "type": "Dry Powder",
+    "dxf_x": 591.86,
+    "dxf_y": -1733.61,
+    "layer": "TEXT",
+    "source_cad_x": 7120.98,
+    "source_cad_y": 672.12
+  }
+]
