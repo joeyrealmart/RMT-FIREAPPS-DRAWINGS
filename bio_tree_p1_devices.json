@@ -1,0 +1,662 @@
+[
+  {
+    "device_label": "HD ZONE 6",
+    "cad_location": [
+      134117.59,
+      154005.86
+    ],
+    "svg_location": [
+      97.59,
+      84.14
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134157.13,
+      154065.63
+    ],
+    "svg_location": [
+      137.13,
+      24.37
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134161.76,
+      154047.3
+    ],
+    "svg_location": [
+      141.76,
+      42.7
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134157.65,
+      154050.48
+    ],
+    "svg_location": [
+      137.65,
+      39.52
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.1",
+    "cad_location": [
+      134161.54,
+      154054.89
+    ],
+    "svg_location": [
+      141.54,
+      35.11
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134166.23,
+      154047.3
+    ],
+    "svg_location": [
+      146.23,
+      42.7
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134161.76,
+      153992.85
+    ],
+    "svg_location": [
+      141.76,
+      97.15
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134157.65,
+      153996.03
+    ],
+    "svg_location": [
+      137.65,
+      93.97
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.1",
+    "cad_location": [
+      134161.54,
+      154000.44
+    ],
+    "svg_location": [
+      141.54,
+      89.56
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134166.23,
+      153992.85
+    ],
+    "svg_location": [
+      146.23,
+      97.15
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134157.13,
+      154011.18
+    ],
+    "svg_location": [
+      137.13,
+      78.82
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134068.07,
+      154057.74
+    ],
+    "svg_location": [
+      48.07,
+      32.26
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134063.96,
+      154060.92
+    ],
+    "svg_location": [
+      43.96,
+      29.08
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.1",
+    "cad_location": [
+      134067.85,
+      154065.32
+    ],
+    "svg_location": [
+      47.85,
+      24.68
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134072.54,
+      154057.74
+    ],
+    "svg_location": [
+      52.54,
+      32.26
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134068.93,
+      154041.05
+    ],
+    "svg_location": [
+      48.93,
+      48.95
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134068.07,
+      153985.44
+    ],
+    "svg_location": [
+      48.07,
+      104.56
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134063.96,
+      153988.62
+    ],
+    "svg_location": [
+      43.96,
+      101.38
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.1",
+    "cad_location": [
+      134067.85,
+      153993.02
+    ],
+    "svg_location": [
+      47.85,
+      96.98
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134072.54,
+      153985.44
+    ],
+    "svg_location": [
+      52.54,
+      104.56
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134068.93,
+      153968.75
+    ],
+    "svg_location": [
+      48.93,
+      121.25
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG ZONE 1",
+    "cad_location": [
+      134082.33,
+      153952.0
+    ],
+    "svg_location": [
+      62.33,
+      138.0
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 6",
+    "cad_location": [
+      134113.36,
+      153952.0
+    ],
+    "svg_location": [
+      93.36,
+      138.0
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 13",
+    "cad_location": [
+      134147.61,
+      153952.27
+    ],
+    "svg_location": [
+      127.61,
+      137.73
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "SD ZONE 16",
+    "cad_location": [
+      134080.65,
+      153942.74
+    ],
+    "svg_location": [
+      60.65,
+      147.26
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.16",
+    "cad_location": [
+      134142.95,
+      154028.35
+    ],
+    "svg_location": [
+      122.95,
+      61.65
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134162.62,
+      154023.4
+    ],
+    "svg_location": [
+      142.62,
+      66.6
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134158.51,
+      154026.58
+    ],
+    "svg_location": [
+      138.51,
+      63.42
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.1,Z.2",
+    "cad_location": [
+      134163.73,
+      154030.98
+    ],
+    "svg_location": [
+      143.73,
+      59.02
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134167.08,
+      154023.4
+    ],
+    "svg_location": [
+      147.08,
+      66.6
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134172.22,
+      154023.19
+    ],
+    "svg_location": [
+      152.22,
+      66.81
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134141.69,
+      153934.26
+    ],
+    "svg_location": [
+      121.69,
+      155.74
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134146.16,
+      153934.26
+    ],
+    "svg_location": [
+      126.16,
+      155.74
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134135.36,
+      153916.19
+    ],
+    "svg_location": [
+      115.36,
+      173.81
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134129.68,
+      153916.19
+    ],
+    "svg_location": [
+      109.68,
+      173.81
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134112.79,
+      153910.06
+    ],
+    "svg_location": [
+      92.79,
+      179.94
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134099.03,
+      153916.19
+    ],
+    "svg_location": [
+      79.03,
+      173.81
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134086.41,
+      153916.19
+    ],
+    "svg_location": [
+      66.41,
+      173.81
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134102.08,
+      153905.27
+    ],
+    "svg_location": [
+      82.08,
+      184.73
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134119.8,
+      153905.27
+    ],
+    "svg_location": [
+      99.8,
+      184.73
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134134.33,
+      153905.27
+    ],
+    "svg_location": [
+      114.33,
+      184.73
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134086.41,
+      153901.48
+    ],
+    "svg_location": [
+      66.41,
+      188.52
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134113.04,
+      153901.48
+    ],
+    "svg_location": [
+      93.04,
+      188.52
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134131.56,
+      153901.48
+    ],
+    "svg_location": [
+      111.56,
+      188.52
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134145.74,
+      153901.48
+    ],
+    "svg_location": [
+      125.74,
+      188.52
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134098.15,
+      153892.58
+    ],
+    "svg_location": [
+      78.15,
+      197.42
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.3",
+    "cad_location": [
+      134069.51,
+      153890.26
+    ],
+    "svg_location": [
+      49.51,
+      199.74
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134116.8,
+      153916.19
+    ],
+    "svg_location": [
+      96.8,
+      173.81
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134108.38,
+      153921.94
+    ],
+    "svg_location": [
+      88.38,
+      168.06
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134088.81,
+      153921.94
+    ],
+    "svg_location": [
+      68.81,
+      168.06
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134091.21,
+      153900.98
+    ],
+    "svg_location": [
+      71.21,
+      189.02
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134101.71,
+      153901.12
+    ],
+    "svg_location": [
+      81.71,
+      188.88
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134119.81,
+      153901.19
+    ],
+    "svg_location": [
+      99.81,
+      188.81
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8,Z.15",
+    "cad_location": [
+      134139.5,
+      153904.5
+    ],
+    "svg_location": [
+      119.5,
+      185.5
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.8",
+    "cad_location": [
+      134155.64,
+      153892.89
+    ],
+    "svg_location": [
+      135.64,
+      197.11
+    ],
+    "layer": "0"
+  }
+]
