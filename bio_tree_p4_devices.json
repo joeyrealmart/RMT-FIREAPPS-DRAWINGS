@@ -1,0 +1,278 @@
+[
+  {
+    "device_label": "HD ZONE 11",
+    "cad_location": [
+      134220.61,
+      153850.54
+    ],
+    "svg_location": [
+      65.61,
+      59.46
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134258.55,
+      153872.45
+    ],
+    "svg_location": [
+      103.55,
+      37.55
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134263.19,
+      153886.57
+    ],
+    "svg_location": [
+      108.19,
+      23.43
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134259.08,
+      153889.75
+    ],
+    "svg_location": [
+      104.08,
+      20.25
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134267.65,
+      153886.57
+    ],
+    "svg_location": [
+      112.65,
+      23.43
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134263.19,
+      153854.12
+    ],
+    "svg_location": [
+      108.19,
+      55.88
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134259.08,
+      153857.3
+    ],
+    "svg_location": [
+      104.08,
+      52.7
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.4",
+    "cad_location": [
+      134262.97,
+      153861.71
+    ],
+    "svg_location": [
+      107.97,
+      48.29
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134267.65,
+      153854.12
+    ],
+    "svg_location": [
+      112.65,
+      55.88
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 12",
+    "cad_location": [
+      134298.94,
+      153838.76
+    ],
+    "svg_location": [
+      143.94,
+      71.24
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134346.37,
+      153875.26
+    ],
+    "svg_location": [
+      191.37,
+      34.74
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134342.27,
+      153878.44
+    ],
+    "svg_location": [
+      187.27,
+      31.56
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.5",
+    "cad_location": [
+      134348.58,
+      153882.65
+    ],
+    "svg_location": [
+      193.58,
+      27.35
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG ZONE 4",
+    "cad_location": [
+      134196.91,
+      153825.07
+    ],
+    "svg_location": [
+      41.91,
+      84.93
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 10",
+    "cad_location": [
+      134228.1,
+      153825.07
+    ],
+    "svg_location": [
+      73.1,
+      84.93
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 11",
+    "cad_location": [
+      134260.58,
+      153825.07
+    ],
+    "svg_location": [
+      105.58,
+      84.93
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG ZONE 5",
+    "cad_location": [
+      134296.5,
+      153825.07
+    ],
+    "svg_location": [
+      141.5,
+      84.93
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 12",
+    "cad_location": [
+      134326.89,
+      153825.07
+    ],
+    "svg_location": [
+      171.89,
+      84.93
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134188.97,
+      153782.58
+    ],
+    "svg_location": [
+      33.97,
+      127.42
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134189.2,
+      153764.25
+    ],
+    "svg_location": [
+      34.2,
+      145.75
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134185.09,
+      153767.43
+    ],
+    "svg_location": [
+      30.09,
+      142.57
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.17",
+    "cad_location": [
+      134188.98,
+      153771.84
+    ],
+    "svg_location": [
+      33.98,
+      138.16
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134193.66,
+      153764.25
+    ],
+    "svg_location": [
+      38.66,
+      145.75
+    ],
+    "layer": "0"
+  }
+]

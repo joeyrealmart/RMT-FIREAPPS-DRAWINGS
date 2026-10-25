@@ -1,0 +1,98 @@
+[
+  {
+    "device_type": "D-413_MIMIC_SIZE_470_X_340",
+    "cad_location": [
+      134044.38,
+      153639.62
+    ],
+    "svg_location": [
+      24.38,
+      130.38
+    ],
+    "layer": "MIMIC_SIZE"
+  },
+  {
+    "device_type": "HRP_PUMP",
+    "cad_location": [
+      134298.0,
+      153669.22
+    ],
+    "svg_location": [
+      278.0,
+      100.78
+    ],
+    "layer": "MIMIC_SIZE"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134152.67,
+      153695.28
+    ],
+    "svg_location": [
+      132.67,
+      74.72
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134138.44,
+      153693.94
+    ],
+    "svg_location": [
+      118.44,
+      76.06
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      134134.33,
+      153697.12
+    ],
+    "svg_location": [
+      114.33,
+      72.88
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.17",
+    "cad_location": [
+      134138.22,
+      153701.53
+    ],
+    "svg_location": [
+      118.22,
+      68.47
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      134142.9,
+      153693.94
+    ],
+    "svg_location": [
+      122.9,
+      76.06
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG ZONE 17",
+    "cad_location": [
+      134095.86,
+      153664.73
+    ],
+    "svg_location": [
+      75.86,
+      105.27
+    ],
+    "layer": "0"
+  }
+]

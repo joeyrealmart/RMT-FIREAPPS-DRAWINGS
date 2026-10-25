@@ -1,0 +1,410 @@
+[
+  {
+    "device_label": "HD ZONE 10",
+    "cad_location": [
+      134212.06,
+      153897.17
+    ],
+    "svg_location": [
+      57.06,
+      192.83
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG ZONE 2",
+    "cad_location": [
+      134256.72,
+      154006.71
+    ],
+    "svg_location": [
+      101.72,
+      83.29
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 7",
+    "cad_location": [
+      134256.64,
+      153998.28
+    ],
+    "svg_location": [
+      101.64,
+      91.72
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "SD ZONE 16",
+    "cad_location": [
+      134255.61,
+      153989.81
+    ],
+    "svg_location": [
+      100.61,
+      100.19
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG ZONE 2",
+    "cad_location": [
+      134256.97,
+      153971.72
+    ],
+    "svg_location": [
+      101.97,
+      118.28
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HD ZONE 14",
+    "cad_location": [
+      134255.53,
+      153963.3
+    ],
+    "svg_location": [
+      100.53,
+      126.7
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7,Z.14",
+    "cad_location": [
+      134182.88,
+      154056.25
+    ],
+    "svg_location": [
+      27.88,
+      33.75
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134185.64,
+      154035.6
+    ],
+    "svg_location": [
+      30.64,
+      54.4
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134196.1,
+      154056.25
+    ],
+    "svg_location": [
+      41.1,
+      33.75
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134196.1,
+      154040.38
+    ],
+    "svg_location": [
+      41.1,
+      49.62
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134194.31,
+      154025.09
+    ],
+    "svg_location": [
+      39.31,
+      64.91
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134208.22,
+      154024.34
+    ],
+    "svg_location": [
+      53.22,
+      65.66
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134218.57,
+      154024.34
+    ],
+    "svg_location": [
+      63.57,
+      65.66
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134231.35,
+      154024.34
+    ],
+    "svg_location": [
+      76.35,
+      65.66
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134203.26,
+      154051.37
+    ],
+    "svg_location": [
+      48.26,
+      38.63
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134216.71,
+      154051.37
+    ],
+    "svg_location": [
+      61.71,
+      38.63
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134225.73,
+      154051.37
+    ],
+    "svg_location": [
+      70.73,
+      38.63
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134239.6,
+      154051.37
+    ],
+    "svg_location": [
+      84.6,
+      38.63
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134203.26,
+      154033.95
+    ],
+    "svg_location": [
+      48.26,
+      56.05
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134216.71,
+      154033.95
+    ],
+    "svg_location": [
+      61.71,
+      56.05
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134225.73,
+      154033.95
+    ],
+    "svg_location": [
+      70.73,
+      56.05
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134239.6,
+      154033.95
+    ],
+    "svg_location": [
+      84.6,
+      56.05
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7",
+    "cad_location": [
+      134233.63,
+      154042.66
+    ],
+    "svg_location": [
+      78.63,
+      47.34
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7, Z.14",
+    "cad_location": [
+      134240.09,
+      154055.78
+    ],
+    "svg_location": [
+      85.09,
+      34.22
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7, Z.14",
+    "cad_location": [
+      134211.41,
+      154055.78
+    ],
+    "svg_location": [
+      56.41,
+      34.22
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7,Z.14",
+    "cad_location": [
+      134182.88,
+      154044.64
+    ],
+    "svg_location": [
+      27.88,
+      45.36
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7,Z.14",
+    "cad_location": [
+      134200.34,
+      154042.42
+    ],
+    "svg_location": [
+      45.34,
+      47.58
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7,Z.14",
+    "cad_location": [
+      134213.52,
+      154042.46
+    ],
+    "svg_location": [
+      58.52,
+      47.54
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7,Z.14",
+    "cad_location": [
+      134223.67,
+      154042.58
+    ],
+    "svg_location": [
+      68.67,
+      47.42
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.7,Z.14",
+    "cad_location": [
+      134238.23,
+      154042.52
+    ],
+    "svg_location": [
+      83.23,
+      47.48
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.14",
+    "cad_location": [
+      134257.37,
+      154026.5
+    ],
+    "svg_location": [
+      102.37,
+      63.5
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.16",
+    "cad_location": [
+      134269.33,
+      154021.99
+    ],
+    "svg_location": [
+      114.33,
+      68.01
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      134258.55,
+      153904.9
+    ],
+    "svg_location": [
+      103.55,
+      185.1
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "Z.4",
+    "cad_location": [
+      134262.97,
+      153894.16
+    ],
+    "svg_location": [
+      107.97,
+      195.84
+    ],
+    "layer": "0"
+  }
+]

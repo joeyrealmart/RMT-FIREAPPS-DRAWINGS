@@ -1,0 +1,31 @@
+{
+  "site": "Tetuan Bio Tree Pharmaceutical",
+  "floor_key": "bio_tree_p4",
+  "candidate_key": "lib-bio-tree-p4",
+  "floor_identity": "Bio Tree Page 4 / Ground & 1st Floor (Block B)",
+  "title": "BIO TREE \u2014 PAGE 4 (GROUND & 1ST FLOOR BLOCK B)",
+  "source_dxf": "sources/batch-02/TETUAN BIO TREE PHARMACEUTICAL.dxf",
+  "runtime_inventory_status": "RECONCILED_CANDIDATE",
+  "discrepancy_reason": "Canonical Bio Tree runtime candidate 4 reconciled against CAD Ground & 1st Floor Plan (Block B) geometry.",
+  "review_status": "REVIEW_REQUIRED",
+  "entity_count": 1987,
+  "device_count": 23,
+  "bounds": {
+    "min_x": 134175.0,
+    "max_x": 134350.0,
+    "min_y": 153750.0,
+    "max_y": 153890.0,
+    "width": 175.0,
+    "height": 140.0
+  },
+  "identity_evidence": {
+    "source_text": "BIO TREE \u2014 PAGE 4 (GROUND & 1ST FLOOR BLOCK B)",
+    "dxf_layer": "BUILD",
+    "cad_region_box": [
+      134175.0,
+      134350.0,
+      153750.0,
+      153890.0
+    ]
+  }
+}

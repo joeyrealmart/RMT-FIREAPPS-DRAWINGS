@@ -1,0 +1,31 @@
+{
+  "site": "Tetuan Bio Tree Pharmaceutical",
+  "floor_key": "bio_tree_p1",
+  "candidate_key": "lib-bio-tree-p1",
+  "floor_identity": "Bio Tree Page 1 / Ground Floor (Block C)",
+  "title": "BIO TREE \u2014 PAGE 1 (GROUND FLOOR BLOCK C)",
+  "source_dxf": "sources/batch-02/TETUAN BIO TREE PHARMACEUTICAL.dxf",
+  "runtime_inventory_status": "RECONCILED_CANDIDATE",
+  "discrepancy_reason": "Canonical Bio Tree runtime candidate 1 reconciled against CAD Ground Floor Plan (Block C) geometry.",
+  "review_status": "REVIEW_REQUIRED",
+  "entity_count": 2038,
+  "device_count": 55,
+  "bounds": {
+    "min_x": 134040.0,
+    "max_x": 134175.0,
+    "min_y": 153890.0,
+    "max_y": 154070.0,
+    "width": 135.0,
+    "height": 180.0
+  },
+  "identity_evidence": {
+    "source_text": "BIO TREE \u2014 PAGE 1 (GROUND FLOOR BLOCK C)",
+    "dxf_layer": "BUILD",
+    "cad_region_box": [
+      134040.0,
+      134175.0,
+      153890.0,
+      154070.0
+    ]
+  }
+}
