@@ -1,0 +1,50 @@
+[
+  {
+    "device_id": "dev-iatac-p3-sd-01",
+    "device_type": "SMOKE_DETECTOR",
+    "label": "Smoke Detector 01",
+    "floor_key": "iatac_p3",
+    "candidate_key": "lib-iatac-p3",
+    "position": {
+      "x": 555,
+      "y": 300
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p3-fe-01",
+    "device_type": "DRY_POWDER_FIRE_EXTINGUISHER",
+    "label": "DP Fire Extinguisher 01",
+    "floor_key": "iatac_p3",
+    "candidate_key": "lib-iatac-p3",
+    "position": {
+      "x": 340,
+      "y": 380
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p3-bg-01",
+    "device_type": "BREAKGLASS_CALL_POINT",
+    "label": "Breakglass Call Point 01",
+    "floor_key": "iatac_p3",
+    "candidate_key": "lib-iatac-p3",
+    "position": {
+      "x": 800,
+      "y": 480
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p3-co2-01",
+    "device_type": "CO2_FIRE_EXTINGUISHER",
+    "label": "CO2 Fire Extinguisher 01",
+    "floor_key": "iatac_p3",
+    "candidate_key": "lib-iatac-p3",
+    "position": {
+      "x": 680,
+      "y": 300
+    },
+    "source_supported": true
+  }
+]

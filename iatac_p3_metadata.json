@@ -1,0 +1,27 @@
+{
+  "site": "IATAC",
+  "floor_key": "iatac_p3",
+  "candidate_key": "lib-iatac-p3",
+  "floor_identity": "Page 3",
+  "title": "IATAC \u2014 PAGE 3",
+  "source_image": "sources/stage-e/iatac/page-003.png",
+  "source_sha256": "E1AC21F279B760E6D134186ACDBB24493FB51443EA9C9CDD3FBC54BB55F1B34F",
+  "render_status": "PASS",
+  "review_status": "REVIEW_REQUIRED",
+  "discrepancy_reason": "Vector floorplan generated from bounded raster image packet sources/stage-e/iatac/page-003.png; CAD file absent in canonical inventory.",
+  "entity_count": 36,
+  "device_count": 4,
+  "bounds": {
+    "min_x": 160,
+    "max_x": 950,
+    "min_y": 220,
+    "max_y": 1200,
+    "width": 790,
+    "height": 980
+  },
+  "identity_evidence": {
+    "source_text": "IATAC Page 3",
+    "source_file": "sources/stage-e/iatac/page-003.png",
+    "sha256": "E1AC21F279B760E6D134186ACDBB24493FB51443EA9C9CDD3FBC54BB55F1B34F"
+  }
+}
