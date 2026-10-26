@@ -1,0 +1,27 @@
+{
+  "site": "IATAC (HANGAR)",
+  "floor_key": "iatac_hangar_p1",
+  "candidate_key": "lib-iatac-hangar-p1",
+  "floor_identity": "Page 1",
+  "title": "IATAC (HANGAR) \u2014 PAGE 1",
+  "source_image": "sources/stage-d/iatac-hangar/page-001.png",
+  "source_sha256": "1701F2395C4783410C7ECB935C0EAFB5FAD97718724F5ADD0EB0475D9D3FFBA3",
+  "render_status": "PASS",
+  "review_status": "REVIEW_REQUIRED",
+  "discrepancy_reason": "Vector floorplan generated from bounded raster image packet sources/stage-d/iatac-hangar/page-001.png; CAD file absent in canonical inventory.",
+  "entity_count": 52,
+  "device_count": 6,
+  "bounds": {
+    "min_x": 55,
+    "max_x": 1040,
+    "min_y": 260,
+    "max_y": 1430,
+    "width": 985,
+    "height": 1170
+  },
+  "identity_evidence": {
+    "source_text": "IATAC (HANGAR) Page 1",
+    "source_file": "sources/stage-d/iatac-hangar/page-001.png",
+    "sha256": "1701F2395C4783410C7ECB935C0EAFB5FAD97718724F5ADD0EB0475D9D3FFBA3"
+  }
+}
