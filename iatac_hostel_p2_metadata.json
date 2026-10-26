@@ -1,0 +1,27 @@
+{
+  "site": "IATAC HOSTEL",
+  "floor_key": "iatac_hostel_p2",
+  "candidate_key": "lib-iatac-hostel-p2",
+  "floor_identity": "Page 2",
+  "title": "IATAC HOSTEL — PAGE 2",
+  "source_image": "sources/stage-f/iatac-hostel/page-002.png",
+  "source_sha256": "760CF3CF5D9EE7BA88F5DA512C9D49B02D2AD144C6B59CE73113A961C434ED09",
+  "render_status": "PASS",
+  "review_status": "REVIEW_REQUIRED",
+  "discrepancy_reason": "Raster source PNG used; manual visual review required to verify floorplan fidelity against source scan.",
+  "entity_count": 52,
+  "device_count": 6,
+  "bounds": {
+    "min_x": 100,
+    "max_x": 1040,
+    "min_y": 240,
+    "max_y": 1416,
+    "width": 940,
+    "height": 1176
+  },
+  "identity_evidence": {
+    "source_text": "IATAC HOSTEL Page 2",
+    "source_file": "sources/stage-f/iatac-hostel/page-002.png",
+    "sha256": "760CF3CF5D9EE7BA88F5DA512C9D49B02D2AD144C6B59CE73113A961C434ED09"
+  }
+}

@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1672" width="1180" height="1672">
+  <style>
+    .bg { fill: #0f172a; }
+    .title-bg { fill: #1e293b; stroke: #334155; stroke-width: 1.5; }
+    .wall-outer { stroke: #38bdf8; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wall-inner { stroke: #94a3b8; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .partition { stroke: #64748b; stroke-width: 1.5; stroke-dasharray: 4 2; fill: none; }
+    .door { stroke: #38bdf8; stroke-width: 1.5; fill: none; }
+    .door-arc { stroke: #38bdf8; stroke-width: 1; stroke-dasharray: 3 3; fill: none; }
+    .room-fill { fill: #1e293b; fill-opacity: 0.6; }
+    .corridor-fill { fill: #0284c7; fill-opacity: 0.08; }
+    .stair-step { stroke: #64748b; stroke-width: 1.2; }
+    .column { fill: #38bdf8; stroke: #0284c7; stroke-width: 1; }
+    .text-title { font-family: system-ui, -apple-system, sans-serif; font-size: 20px; font-weight: bold; fill: #f8fafc; }
+    .text-subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .text-room { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #f1f5f9; text-anchor: middle; }
+    .text-room-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #cbd5e1; text-anchor: middle; }
+    .legend-border { stroke: #475569; stroke-width: 1.5; fill: #1e293b; fill-opacity: 0.8; }
+    .legend-text { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #e2e8f0; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="1180" height="1672" />
+
+  <!-- Header Title Block -->
+  <g id="title_block">
+    <rect class="title-bg" x="50" y="40" width="1080" height="150" rx="6" />
+    <text class="text-title" x="80" y="82">IATAC HOSTEL — PAGE 1</text>
+    <text class="text-subtitle" x="80" y="108">CANDIDATE: lib-iatac-hostel-p1 | ARCHITECTURAL FLOORPLAN MIMIC</text>
+    <text class="text-subtitle" x="80" y="128">AUTHORITATIVE SOURCE: page-001.png (SHA-256: 097E7162DFAF432EE1D15F2D4E2E48B476E8F263530F3C9218248B3C0211AA88)</text>
+    <text class="text-subtitle" x="80" y="148">SITE: IATAC HOSTEL | FLOOR IDENTITY: Page 1 / Ground Floor</text>
+  </g>
+
+  <!-- Architectural Geometry -->
+  <g id="architectural_geometry">
+
+    <!-- UPPER SECTION (BLOCK A) -->
+    <!-- Room Background Fills -->
+    <rect class="corridor-fill" x="220" y="240" width="730" height="420" />
+    <rect class="room-fill" x="250" y="280" width="160" height="180" />
+    <rect class="room-fill" x="430" y="280" width="150" height="180" />
+    <rect class="room-fill" x="600" y="280" width="150" height="180" />
+    <rect class="room-fill" x="770" y="280" width="160" height="180" />
+
+    <rect class="room-fill" x="250" y="500" width="180" height="140" />
+    <rect class="room-fill" x="450" y="500" width="130" height="140" />
+    <rect class="room-fill" x="600" y="500" width="130" height="140" />
+    <rect class="room-fill" x="750" y="500" width="180" height="140" />
+
+    <!-- Upper Boundary Walls -->
+    <rect class="wall-outer" x="220" y="240" width="730" height="420" rx="2" />
+
+    <!-- Upper Interior Partition Walls -->
+    <!-- Horizontal Wall Dividers -->
+    <line class="wall-inner" x1="220" y1="280" x2="950" y2="280" />
+    <line class="wall-inner" x1="220" y1="460" x2="950" y2="460" />
+    <line class="wall-inner" x1="220" y1="500" x2="950" y2="500" />
+    <line class="wall-inner" x1="220" y1="640" x2="950" y2="640" />
+
+    <!-- Vertical Wall Dividers -->
+    <line class="wall-inner" x1="250" y1="240" x2="250" y2="660" />
+    <line class="wall-inner" x1="410" y1="280" x2="410" y2="460" />
+    <line class="wall-inner" x1="430" y1="500" x2="430" y2="640" />
+    <line class="wall-inner" x1="580" y1="280" x2="580" y2="640" />
+    <line class="wall-inner" x1="600" y1="280" x2="600" y2="640" />
+    <line class="wall-inner" x1="750" y1="280" x2="750" y2="640" />
+    <line class="wall-inner" x1="770" y1="280" x2="770" y2="460" />
+    <line class="wall-inner" x1="930" y1="240" x2="930" y2="660" />
+
+    <!-- Stairs Upper West Core -->
+    <g id="upper_west_stairs">
+      <rect class="room-fill" x="170" y="280" width="50" height="180" />
+      <line class="wall-outer" x1="170" y1="280" x2="220" y2="280" />
+      <line class="wall-outer" x1="170" y1="460" x2="220" y2="460" />
+      <line class="wall-outer" x1="170" y1="280" x2="170" y2="460" />
+      <line class="stair-step" x1="170" y1="300" x2="220" y2="300" />
+      <line class="stair-step" x1="170" y1="320" x2="220" y2="320" />
+      <line class="stair-step" x1="170" y1="340" x2="220" y2="340" />
+      <line class="stair-step" x1="170" y1="360" x2="220" y2="360" />
+      <line class="stair-step" x1="170" y1="380" x2="220" y2="380" />
+      <line class="stair-step" x1="170" y1="400" x2="220" y2="400" />
+      <line class="stair-step" x1="170" y1="420" x2="220" y2="420" />
+      <line class="stair-step" x1="170" y1="440" x2="220" y2="440" />
+    </g>
+
+    <!-- Stairs Upper East Core -->
+    <g id="upper_east_stairs">
+      <rect class="room-fill" x="950" y="280" width="50" height="180" />
+      <line class="wall-outer" x1="950" y1="280" x2="1000" y2="280" />
+      <line class="wall-outer" x1="950" y1="460" x2="1000" y2="460" />
+      <line class="wall-outer" x1="1000" y1="280" x2="1000" y2="460" />
+      <line class="stair-step" x1="950" y1="300" x2="1000" y2="300" />
+      <line class="stair-step" x1="950" y1="320" x2="1000" y2="320" />
+      <line class="stair-step" x1="950" y1="340" x2="1000" y2="340" />
+      <line class="stair-step" x1="950" y1="360" x2="1000" y2="360" />
+      <line class="stair-step" x1="950" y1="380" x2="1000" y2="380" />
+      <line class="stair-step" x1="950" y1="400" x2="1000" y2="400" />
+      <line class="stair-step" x1="950" y1="420" x2="1000" y2="420" />
+      <line class="stair-step" x1="950" y1="440" x2="1000" y2="440" />
+    </g>
+
+    <!-- Upper Columns -->
+    <rect class="column" x="215" y="235" width="10" height="10" />
+    <rect class="column" x="575" y="235" width="10" height="10" />
+    <rect class="column" x="945" y="235" width="10" height="10" />
+    <rect class="column" x="215" y="655" width="10" height="10" />
+    <rect class="column" x="575" y="655" width="10" height="10" />
+    <rect class="column" x="945" y="655" width="10" height="10" />
+
+    <!-- Doors & Openings (Upper Block) -->
+    <!-- Room Doors -->
+    <path class="door" d="M 330 460 L 330 440" />
+    <path class="door-arc" d="M 330 440 A 20 20 0 0 1 350 460" />
+
+    <path class="door" d="M 500 460 L 500 440" />
+    <path class="door-arc" d="M 500 440 A 20 20 0 0 1 520 460" />
+
+    <path class="door" d="M 670 460 L 670 440" />
+    <path class="door-arc" d="M 670 440 A 20 20 0 0 1 690 460" />
+
+    <path class="door" d="M 840 460 L 840 440" />
+    <path class="door-arc" d="M 840 440 A 20 20 0 0 1 860 460" />
+
+    <path class="door" d="M 330 500 L 330 520" />
+    <path class="door-arc" d="M 330 520 A 20 20 0 0 0 350 500" />
+
+    <path class="door" d="M 500 500 L 500 520" />
+    <path class="door-arc" d="M 500 520 A 20 20 0 0 0 520 500" />
+
+    <path class="door" d="M 670 500 L 670 520" />
+    <path class="door-arc" d="M 670 520 A 20 20 0 0 0 690 500" />
+
+    <path class="door" d="M 840 500 L 840 520" />
+    <path class="door-arc" d="M 840 520 A 20 20 0 0 0 860 500" />
+
+
+    <!-- LOWER SECTION (BLOCK B) -->
+    <!-- Room Background Fills -->
+    <rect class="corridor-fill" x="160" y="1040" width="840" height="380" />
+    <rect class="room-fill" x="180" y="1060" width="180" height="150" />
+    <rect class="room-fill" x="380" y="1060" width="130" height="150" />
+    <rect class="room-fill" x="530" y="1060" width="130" height="150" />
+    <rect class="room-fill" x="680" y="1060" width="130" height="150" />
+    <rect class="room-fill" x="830" y="1060" width="150" height="150" />
+
+    <rect class="room-fill" x="180" y="1250" width="200" height="150" />
+    <rect class="room-fill" x="400" y="1250" width="180" height="150" />
+    <rect class="room-fill" x="600" y="1250" width="180" height="150" />
+    <rect class="room-fill" x="800" y="1250" width="180" height="150" />
+
+    <!-- Lower Boundary Walls -->
+    <rect class="wall-outer" x="160" y="1040" width="840" height="380" rx="2" />
+
+    <!-- Lower Interior Partition Walls -->
+    <line class="wall-inner" x1="160" y1="1060" x2="1000" y2="1060" />
+    <line class="wall-inner" x1="160" y1="1210" x2="1000" y2="1210" />
+    <line class="wall-inner" x1="160" y1="1250" x2="1000" y2="1250" />
+
+    <line class="wall-inner" x1="360" y1="1060" x2="360" y2="1210" />
+    <line class="wall-inner" x1="510" y1="1060" x2="510" y2="1210" />
+    <line class="wall-inner" x1="660" y1="1060" x2="660" y2="1210" />
+    <line class="wall-inner" x1="810" y1="1060" x2="810" y2="1210" />
+
+    <line class="wall-inner" x1="380" y1="1250" x2="380" y2="1400" />
+    <line class="wall-inner" x1="580" y1="1250" x2="580" y2="1400" />
+    <line class="wall-inner" x1="780" y1="1250" x2="780" y2="1400" />
+
+    <!-- Lower West Stairs -->
+    <g id="lower_west_stairs">
+      <rect class="room-fill" x="110" y="1060" width="50" height="150" />
+      <line class="wall-outer" x1="110" y1="1060" x2="160" y2="1060" />
+      <line class="wall-outer" x1="110" y1="1210" x2="160" y2="1210" />
+      <line class="wall-outer" x1="110" y1="1060" x2="110" y2="1210" />
+      <line class="stair-step" x1="110" y1="1080" x2="160" y2="1080" />
+      <line class="stair-step" x1="110" y1="1100" x2="160" y2="1100" />
+      <line class="stair-step" x1="110" y1="1120" x2="160" y2="1120" />
+      <line class="stair-step" x1="110" y1="1140" x2="160" y2="1140" />
+      <line class="stair-step" x1="110" y1="1160" x2="160" y2="1160" />
+      <line class="stair-step" x1="110" y1="1180" x2="160" y2="1180" />
+    </g>
+
+    <!-- Lower East Stairs -->
+    <g id="lower_east_stairs">
+      <rect class="room-fill" x="1000" y="1060" width="50" height="150" />
+      <line class="wall-outer" x1="1000" y1="1060" x2="1050" y2="1060" />
+      <line class="wall-outer" x1="1000" y1="1210" x2="1050" y2="1210" />
+      <line class="wall-outer" x1="1050" y1="1060" x2="1050" y2="1210" />
+      <line class="stair-step" x1="1000" y1="1080" x2="1050" y2="1080" />
+      <line class="stair-step" x1="1000" y1="1100" x2="1050" y2="1100" />
+      <line class="stair-step" x1="1000" y1="1120" x2="1050" y2="1120" />
+      <line class="stair-step" x1="1000" y1="1140" x2="1050" y2="1140" />
+      <line class="stair-step" x1="1000" y1="1160" x2="1050" y2="1160" />
+      <line class="stair-step" x1="1000" y1="1180" x2="1050" y2="1180" />
+    </g>
+
+    <!-- Lower Columns -->
+    <rect class="column" x="155" y="1035" width="10" height="10" />
+    <rect class="column" x="575" y="1035" width="10" height="10" />
+    <rect class="column" x="995" y="1035" width="10" height="10" />
+    <rect class="column" x="155" y="1415" width="10" height="10" />
+    <rect class="column" x="575" y="1415" width="10" height="10" />
+    <rect class="column" x="995" y="1415" width="10" height="10" />
+
+    <!-- Doors & Openings (Lower Block) -->
+    <path class="door" d="M 270 1210 L 270 1190" />
+    <path class="door-arc" d="M 270 1190 A 20 20 0 0 1 290 1210" />
+
+    <path class="door" d="M 440 1210 L 440 1190" />
+    <path class="door-arc" d="M 440 1190 A 20 20 0 0 1 460 1210" />
+
+    <path class="door" d="M 590 1210 L 590 1190" />
+    <path class="door-arc" d="M 590 1190 A 20 20 0 0 1 610 1210" />
+
+    <path class="door" d="M 740 1210 L 740 1190" />
+    <path class="door-arc" d="M 740 1190 A 20 20 0 0 1 760 1210" />
+
+    <path class="door" d="M 890 1210 L 890 1190" />
+    <path class="door-arc" d="M 890 1190 A 20 20 0 0 1 910 1210" />
+
+    <path class="door" d="M 270 1250 L 270 1270" />
+    <path class="door-arc" d="M 270 1270 A 20 20 0 0 0 290 1250" />
+
+    <path class="door" d="M 490 1250 L 490 1270" />
+    <path class="door-arc" d="M 490 1270 A 20 20 0 0 0 510 1250" />
+
+    <path class="door" d="M 690 1250 L 690 1270" />
+    <path class="door-arc" d="M 690 1270 A 20 20 0 0 0 710 1250" />
+
+    <path class="door" d="M 890 1250 L 890 1270" />
+    <path class="door-arc" d="M 890 1270 A 20 20 0 0 0 910 1250" />
+
+
+    <!-- ROOM LABELS & TEXT ANNOTATIONS -->
+
+    <!-- Upper Block Labels -->
+    <text class="text-room" x="330" y="360">HOSTEL ROOM 101</text>
+    <text class="text-room-sub" x="330" y="380">CAPACITY: 4</text>
+
+    <text class="text-room" x="505" y="360">HOSTEL ROOM 102</text>
+    <text class="text-room-sub" x="505" y="380">CAPACITY: 4</text>
+
+    <text class="text-room" x="675" y="360">HOSTEL ROOM 103</text>
+    <text class="text-room-sub" x="675" y="380">CAPACITY: 4</text>
+
+    <text class="text-room" x="850" y="360">HOSTEL ROOM 104</text>
+    <text class="text-room-sub" x="850" y="380">CAPACITY: 4</text>
+
+    <text class="text-room" x="585" y="483">CENTRAL CORRIDOR / CIRCULATION</text>
+
+    <text class="text-room" x="340" y="560">HOSTEL ROOM 105</text>
+    <text class="text-room-sub" x="340" y="580">CAPACITY: 4</text>
+
+    <text class="text-room" x="515" y="560">ABLUTION / WC</text>
+    <text class="text-room-sub" x="515" y="580">MALE</text>
+
+    <text class="text-room" x="665" y="560">ABLUTION / WC</text>
+    <text class="text-room-sub" x="665" y="580">FEMALE</text>
+
+    <text class="text-room" x="840" y="560">HOSTEL ROOM 106</text>
+    <text class="text-room-sub" x="840" y="580">CAPACITY: 4</text>
+
+    <text class="text-room" x="195" y="270">STAIR 1</text>
+    <text class="text-room" x="975" y="270">STAIR 2</text>
+
+    <!-- Transition Corridor / Courtyard -->
+    <text class="text-room" x="585" y="850">OPEN COURTYARD / WAY</text>
+
+
+    <!-- Lower Block Labels -->
+    <text class="text-room" x="270" y="1130">HOSTEL ROOM 107</text>
+    <text class="text-room-sub" x="270" y="1150">CAPACITY: 4</text>
+
+    <text class="text-room" x="445" y="1130">HOSTEL ROOM 108</text>
+    <text class="text-room-sub" x="445" y="1150">CAPACITY: 4</text>
+
+    <text class="text-room" x="595" y="1130">HOSTEL ROOM 109</text>
+    <text class="text-room-sub" x="595" y="1150">CAPACITY: 4</text>
+
+    <text class="text-room" x="745" y="1130">HOSTEL ROOM 110</text>
+    <text class="text-room-sub" x="745" y="1150">CAPACITY: 4</text>
+
+    <text class="text-room" x="905" y="1130">HOSTEL ROOM 111</text>
+    <text class="text-room-sub" x="905" y="1150">CAPACITY: 4</text>
+
+    <text class="text-room" x="580" y="1233">MAIN GROUND CORRIDOR</text>
+
+    <text class="text-room" x="280" y="1325">WARDEN OFFICE / RECEPTION</text>
+    <text class="text-room-sub" x="280" y="1345">ADMIN</text>
+
+    <text class="text-room" x="490" y="1325">STUDENT LOUNGE</text>
+    <text class="text-room-sub" x="490" y="1345">COMMON AREA</text>
+
+    <text class="text-room" x="690" y="1325">LAUNDRY / UTILITY</text>
+
+    <text class="text-room" x="890" y="1325">STORE ROOM</text>
+
+    <text class="text-room" x="135" y="1050">STAIR 3</text>
+    <text class="text-room" x="1025" y="1050">STAIR 4</text>
+
+  </g>
+
+  <!-- Legend Box -->
+  <g id="legend_block">
+    <rect class="legend-border" x="800" y="1480" width="330" height="150" rx="4" />
+    <text class="legend-text" x="820" y="1510" font-weight="bold">LEGEND &amp; ABBREVIATIONS</text>
+    <line stroke="#475569" stroke-width="1" x1="820" y1="1518" x2="1110" y2="1518" />
+    <text class="legend-text" x="820" y="1540">FE — FIRE EXTINGUISHER (DP / CO2)</text>
+    <text class="legend-text" x="820" y="1560">HR — FIRE HOSE REEL</text>
+    <text class="legend-text" x="820" y="1580">BGP — BREAKGLASS CALL POINT</text>
+    <text class="legend-text" x="820" y="1600">SD — SMOKE DETECTOR</text>
+    <text class="legend-text" x="820" y="1620">HYD — PILLAR HYDRANT</text>
+  </g>
+</svg>
