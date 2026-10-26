@@ -1,0 +1,31 @@
+{
+  "site": "UMB-1",
+  "floor_key": "umb_1_p4",
+  "candidate_key": "lib-umb-1-p4",
+  "floor_identity": "Page 4 / Third Floor Plan",
+  "title": "UMB-1 \u2014 PAGE 4 (THIRD FLOOR PLAN)",
+  "source_dxf": "sources/batch-02/UMB MIMIC.dxf",
+  "runtime_inventory_status": "RECONCILED_CANDIDATE",
+  "discrepancy_reason": "Canonical UMB-1 runtime candidate reconciled against CAD THIRD FLOOR PLAN geometry.",
+  "review_status": "REVIEW_REQUIRED",
+  "entity_count": 461,
+  "device_count": 20,
+  "bounds": {
+    "min_x": 278.68,
+    "max_x": 416.13,
+    "min_y": -58.62,
+    "max_y": 51.59,
+    "width": 137.45,
+    "height": 110.21
+  },
+  "identity_evidence": {
+    "source_text": "UMB-1 \u2014 PAGE 4 (THIRD FLOOR PLAN)",
+    "dxf_layer": "BUILD",
+    "cad_region_box": [
+      278.68,
+      416.13,
+      -58.62,
+      51.59
+    ]
+  }
+}

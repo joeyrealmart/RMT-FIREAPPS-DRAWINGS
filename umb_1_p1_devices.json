@@ -1,0 +1,938 @@
+[
+  {
+    "device_label": "S",
+    "cad_location": [
+      312.87,
+      148.04
+    ],
+    "svg_location": [
+      260.49,
+      333.65
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      312.48,
+      159.6
+    ],
+    "svg_location": [
+      257.49,
+      244.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      312.48,
+      167.78
+    ],
+    "svg_location": [
+      257.49,
+      181.64
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      312.48,
+      176.67
+    ],
+    "svg_location": [
+      257.49,
+      113.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      328.04,
+      176.67
+    ],
+    "svg_location": [
+      377.26,
+      113.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      322.67,
+      176.67
+    ],
+    "svg_location": [
+      335.9,
+      113.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      343.28,
+      176.67
+    ],
+    "svg_location": [
+      494.59,
+      113.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      337.91,
+      176.67
+    ],
+    "svg_location": [
+      453.23,
+      113.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      325.0,
+      159.4
+    ],
+    "svg_location": [
+      353.85,
+      246.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      325.0,
+      147.72
+    ],
+    "svg_location": [
+      353.85,
+      336.15
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      324.65,
+      139.34
+    ],
+    "svg_location": [
+      351.19,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      330.86,
+      139.34
+    ],
+    "svg_location": [
+      398.96,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      328.04,
+      123.64
+    ],
+    "svg_location": [
+      377.26,
+      521.51
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      333.31,
+      126.97
+    ],
+    "svg_location": [
+      417.87,
+      495.91
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      343.03,
+      123.64
+    ],
+    "svg_location": [
+      492.7,
+      521.51
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      348.31,
+      126.97
+    ],
+    "svg_location": [
+      533.31,
+      495.91
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      342.67,
+      139.34
+    ],
+    "svg_location": [
+      489.9,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      348.87,
+      139.34
+    ],
+    "svg_location": [
+      537.67,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      358.49,
+      139.34
+    ],
+    "svg_location": [
+      611.74,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      364.69,
+      139.34
+    ],
+    "svg_location": [
+      659.5,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      372.26,
+      139.34
+    ],
+    "svg_location": [
+      717.75,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      378.46,
+      139.34
+    ],
+    "svg_location": [
+      765.52,
+      400.67
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      360.47,
+      123.64
+    ],
+    "svg_location": [
+      626.99,
+      521.51
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      365.75,
+      126.97
+    ],
+    "svg_location": [
+      667.6,
+      495.91
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      372.95,
+      123.64
+    ],
+    "svg_location": [
+      723.11,
+      521.51
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      378.23,
+      126.97
+    ],
+    "svg_location": [
+      763.72,
+      495.91
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      343.04,
+      159.4
+    ],
+    "svg_location": [
+      492.77,
+      246.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      339.35,
+      151.16
+    ],
+    "svg_location": [
+      464.33,
+      309.61
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      309.75,
+      135.07
+    ],
+    "svg_location": [
+      236.44,
+      433.56
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      353.93,
+      177.63
+    ],
+    "svg_location": [
+      576.64,
+      105.84
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      353.71,
+      171.83
+    ],
+    "svg_location": [
+      574.92,
+      150.49
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      354.34,
+      163.45
+    ],
+    "svg_location": [
+      579.79,
+      215.0
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      359.03,
+      160.44
+    ],
+    "svg_location": [
+      615.9,
+      238.19
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      365.48,
+      154.55
+    ],
+    "svg_location": [
+      665.55,
+      283.5
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      371.14,
+      154.53
+    ],
+    "svg_location": [
+      709.14,
+      283.72
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      383.47,
+      154.55
+    ],
+    "svg_location": [
+      804.08,
+      283.5
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      389.13,
+      154.53
+    ],
+    "svg_location": [
+      847.67,
+      283.72
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "S",
+    "cad_location": [
+      393.13,
+      159.88
+    ],
+    "svg_location": [
+      878.45,
+      242.52
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "S",
+    "cad_location": [
+      398.79,
+      159.88
+    ],
+    "svg_location": [
+      922.06,
+      242.52
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      389.88,
+      139.77
+    ],
+    "svg_location": [
+      853.42,
+      397.33
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      396.08,
+      139.77
+    ],
+    "svg_location": [
+      901.19,
+      397.33
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      404.72,
+      139.77
+    ],
+    "svg_location": [
+      967.68,
+      397.33
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      410.92,
+      139.77
+    ],
+    "svg_location": [
+      1015.45,
+      397.33
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      406.79,
+      100.2
+    ],
+    "svg_location": [
+      983.64,
+      702.03
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      408.51,
+      154.55
+    ],
+    "svg_location": [
+      996.92,
+      283.5
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      414.18,
+      154.53
+    ],
+    "svg_location": [
+      1040.51,
+      283.72
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      391.57,
+      123.64
+    ],
+    "svg_location": [
+      866.44,
+      521.51
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      396.84,
+      126.97
+    ],
+    "svg_location": [
+      907.05,
+      495.91
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      404.05,
+      123.64
+    ],
+    "svg_location": [
+      962.56,
+      521.51
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      409.33,
+      126.97
+    ],
+    "svg_location": [
+      1003.17,
+      495.91
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      424.71,
+      139.77
+    ],
+    "svg_location": [
+      1121.59,
+      397.33
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "CO2",
+    "cad_location": [
+      371.9,
+      171.96
+    ],
+    "svg_location": [
+      714.95,
+      149.48
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "CO2",
+    "cad_location": [
+      383.51,
+      171.79
+    ],
+    "svg_location": [
+      804.41,
+      150.8
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "CO2",
+    "cad_location": [
+      396.5,
+      171.72
+    ],
+    "svg_location": [
+      904.39,
+      151.3
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "CO2",
+    "cad_location": [
+      409.48,
+      171.09
+    ],
+    "svg_location": [
+      1004.37,
+      156.17
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      335.81,
+      169.92
+    ],
+    "svg_location": [
+      437.12,
+      165.21
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      320.47,
+      -8.8
+    ],
+    "svg_location": [
+      319.0,
+      1541.35
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      303.2,
+      30.58
+    ],
+    "svg_location": [
+      186.03,
+      1238.08
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      326.64,
+      30.58
+    ],
+    "svg_location": [
+      366.5,
+      1238.08
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      351.46,
+      30.58
+    ],
+    "svg_location": [
+      557.61,
+      1238.08
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      303.2,
+      17.65
+    ],
+    "svg_location": [
+      186.03,
+      1337.65
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      326.64,
+      17.65
+    ],
+    "svg_location": [
+      366.5,
+      1337.65
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      351.46,
+      17.65
+    ],
+    "svg_location": [
+      557.61,
+      1337.65
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      341.22,
+      21.27
+    ],
+    "svg_location": [
+      478.75,
+      1309.81
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "S",
+    "cad_location": [
+      391.38,
+      -8.32
+    ],
+    "svg_location": [
+      864.99,
+      1537.62
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      371.26,
+      15.93
+    ],
+    "svg_location": [
+      710.06,
+      1350.9
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      393.24,
+      15.93
+    ],
+    "svg_location": [
+      879.27,
+      1350.9
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "BG",
+    "cad_location": [
+      311.93,
+      12.08
+    ],
+    "svg_location": [
+      253.26,
+      1380.56
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      357.17,
+      -0.4
+    ],
+    "svg_location": [
+      601.59,
+      1476.64
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      374.69,
+      0.24
+    ],
+    "svg_location": [
+      736.5,
+      1471.68
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      397.94,
+      0.17
+    ],
+    "svg_location": [
+      915.48,
+      1472.26
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      410.08,
+      30.27
+    ],
+    "svg_location": [
+      1008.98,
+      1240.46
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      410.08,
+      17.33
+    ],
+    "svg_location": [
+      1008.98,
+      1340.12
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      409.46,
+      3.64
+    ],
+    "svg_location": [
+      1004.19,
+      1445.56
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "H",
+    "cad_location": [
+      423.35,
+      0.17
+    ],
+    "svg_location": [
+      1111.17,
+      1472.26
+    ],
+    "layer": "0"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      327.8,
+      51.74
+    ],
+    "svg_location": [
+      375.43,
+      1075.19
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "DP",
+    "cad_location": [
+      332.09,
+      51.74
+    ],
+    "svg_location": [
+      408.49,
+      1075.19
+    ],
+    "layer": "TEXT"
+  },
+  {
+    "device_label": "HR",
+    "cad_location": [
+      336.83,
+      51.73
+    ],
+    "svg_location": [
+      444.95,
+      1075.2
+    ],
+    "layer": "0"
+  }
+]
