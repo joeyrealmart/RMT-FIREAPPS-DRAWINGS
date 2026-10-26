@@ -1,0 +1,74 @@
+[
+  {
+    "device_id": "dev-iatac-hostel-p2-fe-01",
+    "device_type": "DRY_POWDER_FIRE_EXTINGUISHER",
+    "label": "DP Fire Extinguisher 01",
+    "floor_key": "iatac_hostel_p2",
+    "candidate_key": "lib-iatac-hostel-p2",
+    "position": {
+      "x": 160,
+      "y": 580
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-hostel-p2-sd-01",
+    "device_type": "SMOKE_DETECTOR",
+    "label": "Smoke Detector 01",
+    "floor_key": "iatac_hostel_p2",
+    "candidate_key": "lib-iatac-hostel-p2",
+    "position": {
+      "x": 550,
+      "y": 580
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-hostel-p2-bg-01",
+    "device_type": "BREAKGLASS_CALL_POINT",
+    "label": "Breakglass Call Point 01",
+    "floor_key": "iatac_hostel_p2",
+    "candidate_key": "lib-iatac-hostel-p2",
+    "position": {
+      "x": 110,
+      "y": 580
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-hostel-p2-hr-01",
+    "device_type": "HOSE_REEL",
+    "label": "Fire Hose Reel 01",
+    "floor_key": "iatac_hostel_p2",
+    "candidate_key": "lib-iatac-hostel-p2",
+    "position": {
+      "x": 940,
+      "y": 580
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-hostel-p2-hy-01",
+    "device_type": "PILLAR_HYDRANT",
+    "label": "Pillar Hydrant 01",
+    "floor_key": "iatac_hostel_p2",
+    "candidate_key": "lib-iatac-hostel-p2",
+    "position": {
+      "x": 1010,
+      "y": 790
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-hostel-p2-co2-01",
+    "device_type": "CO2_FIRE_EXTINGUISHER",
+    "label": "CO2 Fire Extinguisher 01",
+    "floor_key": "iatac_hostel_p2",
+    "candidate_key": "lib-iatac-hostel-p2",
+    "position": {
+      "x": 570,
+      "y": 1228
+    },
+    "source_supported": true
+  }
+]
