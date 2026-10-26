@@ -1,0 +1,31 @@
+{
+  "site": "UMB-1",
+  "floor_key": "umb_1_p1",
+  "candidate_key": "lib-umb-1-p1",
+  "floor_identity": "Page 1 / Ground Floor Plan",
+  "title": "UMB-1 \u2014 PAGE 1 (GROUND FLOOR PLAN)",
+  "source_dxf": "sources/batch-02/UMB MIMIC.dxf",
+  "runtime_inventory_status": "RECONCILED_CANDIDATE",
+  "discrepancy_reason": "Canonical UMB-1 runtime candidate reconciled against CAD GROUND FLOOR PLAN geometry.",
+  "review_status": "REVIEW_REQUIRED",
+  "entity_count": 837,
+  "device_count": 78,
+  "bounds": {
+    "min_x": 279.04,
+    "max_x": 434.89,
+    "min_y": -17.2,
+    "max_y": 191.37,
+    "width": 155.85,
+    "height": 208.57
+  },
+  "identity_evidence": {
+    "source_text": "UMB-1 \u2014 PAGE 1 (GROUND FLOOR PLAN)",
+    "dxf_layer": "BUILD",
+    "cad_region_box": [
+      279.04,
+      434.89,
+      -17.2,
+      191.37
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "site": "UMB-1",
+  "floor_key": "umb_1_p3",
+  "candidate_key": "lib-umb-1-p3",
+  "floor_identity": "Page 3 / Second Floor Plan",
+  "title": "UMB-1 \u2014 PAGE 3 (SECOND FLOOR PLAN)",
+  "source_dxf": "sources/batch-02/UMB MIMIC.dxf",
+  "runtime_inventory_status": "RECONCILED_CANDIDATE",
+  "discrepancy_reason": "Canonical UMB-1 runtime candidate reconciled against CAD SECOND FLOOR PLAN geometry.",
+  "review_status": "REVIEW_REQUIRED",
+  "entity_count": 1529,
+  "device_count": 37,
+  "bounds": {
+    "min_x": 635.04,
+    "max_x": 866.42,
+    "min_y": -49.48,
+    "max_y": 192.54,
+    "width": 231.38,
+    "height": 242.02
+  },
+  "identity_evidence": {
+    "source_text": "UMB-1 \u2014 PAGE 3 (SECOND FLOOR PLAN)",
+    "dxf_layer": "BUILD",
+    "cad_region_box": [
+      635.04,
+      866.42,
+      -49.48,
+      192.54
+    ]
+  }
+}
