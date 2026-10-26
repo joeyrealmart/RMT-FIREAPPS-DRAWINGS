@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1672" width="1180" height="1672">
+  <style>
+    .bg { fill: #0f172a; }
+    .title-bg { fill: #1e293b; stroke: #334155; stroke-width: 1.5; }
+    .wall-outer { stroke: #38bdf8; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wall-inner { stroke: #94a3b8; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .hangar-door { stroke: #f59e0b; stroke-width: 3; stroke-dasharray: 8 4; fill: none; }
+    .door { stroke: #38bdf8; stroke-width: 1.5; fill: none; }
+    .door-arc { stroke: #38bdf8; stroke-width: 1; stroke-dasharray: 3 3; fill: none; }
+    .room-fill { fill: #1e293b; fill-opacity: 0.6; }
+    .bay-fill { fill: #0284c7; fill-opacity: 0.08; }
+    .stair-step { stroke: #64748b; stroke-width: 1.2; }
+    .column { fill: #38bdf8; stroke: #0284c7; stroke-width: 1; }
+    .text-title { font-family: system-ui, -apple-system, sans-serif; font-size: 20px; font-weight: bold; fill: #f8fafc; }
+    .text-subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .text-room { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #f1f5f9; text-anchor: middle; }
+    .text-room-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #cbd5e1; text-anchor: middle; }
+    .text-indicator { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: bold; fill: #ef4444; text-anchor: middle; }
+    .legend-border { stroke: #475569; stroke-width: 1.5; fill: #1e293b; fill-opacity: 0.8; }
+    .legend-text { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #e2e8f0; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="1180" height="1672" />
+
+  <!-- Title Block Header -->
+  <g id="title_block">
+    <rect class="title-bg" x="50" y="40" width="1080" height="160" rx="6" />
+    <text class="text-title" x="80" y="85">IATAC (HANGAR) — PAGE 1</text>
+    <text class="text-subtitle" x="80" y="112">CANDIDATE: lib-iatac-hangar-p1 | ARCHITECTURAL FLOORPLAN MIMIC</text>
+    <text class="text-subtitle" x="80" y="132">AUTHORITATIVE SOURCE: page-001.png (SHA-256: 1701F2395C478341...)</text>
+    <text class="text-subtitle" x="80" y="152">SITE: IATAC (HANGAR) | FLOOR IDENTITY: Page 1</text>
+  </g>
+
+  <!-- Floorplan Main Boundary Container -->
+  <g id="architectural_geometry">
+
+    <!-- Hangar Bay Main Hall Fill -->
+    <rect class="bay-fill" x="55" y="260" width="985" height="800" />
+
+    <!-- Annex Room Fills -->
+    <rect class="room-fill" x="55" y="1060" width="340" height="120" />
+    <rect class="room-fill" x="55" y="1180" width="340" height="250" />
+    <rect class="room-fill" x="395" y="1060" width="325" height="120" />
+    <rect class="room-fill" x="395" y="1180" width="325" height="250" />
+    <rect class="room-fill" x="720" y="1060" width="320" height="120" />
+    <rect class="room-fill" x="720" y="1180" width="320" height="250" />
+
+    <!-- Outer Perimeter Walls -->
+    <rect class="wall-outer" x="55" y="260" width="985" height="1170" />
+
+    <!-- Main Hangar Bay Roll-Up / Folding Doors (Top Wall) -->
+    <line class="hangar-door" x1="180" y1="260" x2="480" y2="260" />
+    <line class="hangar-door" x1="520" y1="260" x2="820" y2="260" />
+
+    <!-- Structural Columns along Main Hangar Bay Boundary -->
+    <rect class="column" x="50" y="255" width="10" height="10" />
+    <rect class="column" x="50" y="525" width="10" height="10" />
+    <rect class="column" x="50" y="790" width="10" height="10" />
+    <rect class="column" x="50" y="1055" width="10" height="10" />
+    <rect class="column" x="1035" y="255" width="10" height="10" />
+    <rect class="column" x="1035" y="525" width="10" height="10" />
+    <rect class="column" x="1035" y="790" width="10" height="10" />
+    <rect class="column" x="1035" y="1055" width="10" height="10" />
+
+    <!-- Major Horizontal Partition Wall between Hangar Bay & Annex Block -->
+    <line class="wall-outer" x1="55" y1="1060" x2="1040" y2="1060" />
+
+    <!-- Secondary Horizontal Partition Walls in Annex Block -->
+    <line class="wall-inner" x1="55" y1="1180" x2="1040" y2="1180" />
+    <line class="wall-inner" x1="55" y1="1310" x2="1040" y2="1310" />
+
+    <!-- Vertical Partition Walls in Annex Block -->
+    <line class="wall-inner" x1="395" y1="1060" x2="395" y2="1430" />
+    <line class="wall-inner" x1="720" y1="1060" x2="720" y2="1430" />
+    <line class="wall-inner" x1="200" y1="1180" x2="200" y2="1430" />
+    <line class="wall-inner" x1="550" y1="1180" x2="550" y2="1430" />
+    <line class="wall-inner" x1="880" y1="1180" x2="880" y2="1430" />
+
+    <!-- Doors and Openings -->
+    <!-- Door Hangar Bay to Annex Lobby -->
+    <line class="door" x1="180" y1="1060" x2="220" y2="1060" />
+    <path class="door-arc" d="M 180 1060 A 40 40 0 0 1 220 1100" />
+
+    <!-- Door Office 1 Entrance -->
+    <line class="door" x1="100" y1="1180" x2="130" y2="1180" />
+    <path class="door-arc" d="M 100 1180 A 30 30 0 0 1 130 1210" />
+
+    <!-- Door Tool Store Entrance -->
+    <line class="door" x1="430" y1="1180" x2="460" y2="1180" />
+    <path class="door-arc" d="M 430 1180 A 30 30 0 0 1 460 1210" />
+
+    <!-- Door Electrical DB Room Entrance -->
+    <line class="door" x1="600" y1="1180" x2="630" y2="1180" />
+    <path class="door-arc" d="M 600 1180 A 30 30 0 0 1 630 1210" />
+
+    <!-- Door Exit / Stairwell -->
+    <line class="door" x1="760" y1="1180" x2="790" y2="1180" />
+    <path class="door-arc" d="M 760 1180 A 30 30 0 0 1 790 1210" />
+
+    <!-- Staircases / Steps -->
+    <g id="stairs">
+      <rect class="wall-inner" x="80" y="1110" width="80" height="50" />
+      <line class="stair-step" x1="90" y1="1110" x2="90" y2="1160" />
+      <line class="stair-step" x1="100" y1="1110" x2="100" y2="1160" />
+      <line class="stair-step" x1="110" y1="1110" x2="110" y2="1160" />
+      <line class="stair-step" x1="120" y1="1110" x2="120" y2="1160" />
+      <line class="stair-step" x1="130" y1="1110" x2="130" y2="1160" />
+      <line class="stair-step" x1="140" y1="1110" x2="140" y2="1160" />
+      <line class="stair-step" x1="150" y1="1110" x2="150" y2="1160" />
+
+      <rect class="wall-inner" x="890" y="1190" width="130" height="100" />
+      <line class="stair-step" x1="890" y1="1205" x2="1020" y2="1205" />
+      <line class="stair-step" x1="890" y1="1220" x2="1020" y2="1220" />
+      <line class="stair-step" x1="890" y1="1235" x2="1020" y2="1235" />
+      <line class="stair-step" x1="890" y1="1250" x2="1020" y2="1250" />
+      <line class="stair-step" x1="890" y1="1265" x2="1020" y2="1265" />
+      <line class="stair-step" x1="890" y1="1280" x2="1020" y2="1280" />
+    </g>
+
+  </g>
+
+  <!-- Labels and Room Identity Annotations -->
+  <g id="labels">
+    <!-- Main Hangar Bay Label -->
+    <text class="text-room" x="547" y="620" font-size="22">HANGAR BAY</text>
+    <text class="text-room-sub" x="547" y="645">MAIN AIRCRAFT / MAINTENANCE HALL</text>
+
+    <!-- Annex Rooms Top Row (Y: 1060-1180) -->
+    <text class="text-room" x="225" y="1120">ENTRANCE HALL / FOYER</text>
+    <text class="text-room" x="557" y="1120">CONTROL ROOM / OFFICE</text>
+    <text class="text-room" x="880" y="1120">FIRE HOSE REEL BAY</text>
+
+    <!-- Annex Rooms Middle Row (Y: 1180-1310) -->
+    <text class="text-room" x="127" y="1245">OFFICE 1</text>
+    <text class="text-room" x="297" y="1245">OFFICE 2</text>
+    <text class="text-room" x="472" y="1245">TOOL STORE</text>
+    <text class="text-room" x="635" y="1245">ELECTRICAL / DB</text>
+    <text class="text-room" x="800" y="1245">PUMP ROOM</text>
+    <text class="text-room" x="955" y="1245">STAIRWELL</text>
+
+    <!-- Annex Rooms Bottom Row (Y: 1310-1430) -->
+    <text class="text-room" x="127" y="1370">MALE WASHROOM</text>
+    <text class="text-room" x="297" y="1370">FEMALE WASHROOM</text>
+    <text class="text-room" x="472" y="1370">WORKSHOP</text>
+    <text class="text-room" x="635" y="1370">EQUIPMENT STORE</text>
+    <text class="text-room" x="800" y="1370">UTILITY</text>
+    <text class="text-room" x="955" y="1370">EXIT LOBBY</text>
+
+    <!-- You Are Here Marker -->
+    <g id="you_are_here_marker">
+      <circle cx="130" cy="1135" r="7" fill="#ef4444" stroke="#f8fafc" stroke-width="2" />
+      <text class="text-indicator" x="130" y="1160">YOU ARE HERE</text>
+    </g>
+  </g>
+
+  <!-- Legend Box (Bottom Right) -->
+  <g id="legend_box">
+    <rect class="legend-border" x="50" y="1470" width="1080" height="150" rx="6" />
+    <text class="legend-text" x="70" y="1495" font-weight="bold" font-size="13">LEGEND &amp; SYMBOL INDEX:</text>
+    <circle cx="80" cy="1520" r="6" fill="#ef4444" />
+    <text class="legend-text" x="95" y="1524">FIRE ALARM BELL / BREAKGLASS</text>
+    <rect x="320" y="1512" width="14" height="14" fill="#f59e0b" rx="2" />
+    <text class="legend-text" x="342" y="1524">DRY POWDER FIRE EXTINGUISHER</text>
+    <circle cx="610" cy="1520" r="6" fill="#38bdf8" />
+    <text class="legend-text" x="625" y="1524">SMOKE DETECTOR (S/D)</text>
+    <rect x="850" y="1512" width="14" height="14" fill="#10b981" rx="2" />
+    <text class="legend-text" x="872" y="1524">PILLAR HYDRANT / HOSE REEL</text>
+
+    <text class="legend-text" x="70" y="1560" fill="#94a3b8">Note: All runtime device pins and sensor integrations are maintained in separate device configuration records.</text>
+    <text class="legend-text" x="70" y="1580" fill="#94a3b8">Floorplan drawing parsed from authoritative source image: page-001.png | Scale &amp; aspect ratio strictly preserved.</text>
+  </g>
+</svg>
