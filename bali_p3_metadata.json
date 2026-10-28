@@ -1,0 +1,27 @@
+{
+  "site": "BALI",
+  "floor_key": "bali_p3",
+  "candidate_key": "lib-bali-p3",
+  "floor_identity": "Page 3",
+  "title": "BALI — PAGE 3",
+  "source_image": "sources/stage-g/bali-p01-p05/page-003.png",
+  "source_sha256": "3D555F968D91632D805AAB7B8B81E304E4FB5E59CC318B9A11A32634D5262444",
+  "render_status": "PASS",
+  "review_status": "REVIEW_REQUIRED",
+  "discrepancy_reason": "Vector floorplan generated from bounded raster image packet sources/stage-g/bali-p01-p05/page-003.png; CAD file absent in canonical inventory.",
+  "entity_count": 38,
+  "device_count": 5,
+  "bounds": {
+    "min_x": 80,
+    "max_x": 1120,
+    "min_y": 150,
+    "max_y": 820,
+    "width": 1040,
+    "height": 670
+  },
+  "identity_evidence": {
+    "source_text": "BALI Page 3",
+    "source_file": "sources/stage-g/bali-p01-p05/page-003.png",
+    "sha256": "3D555F968D91632D805AAB7B8B81E304E4FB5E59CC318B9A11A32634D5262444"
+  }
+}

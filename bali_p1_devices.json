@@ -1,0 +1,74 @@
+[
+  {
+    "device_id": "dev-bali-p1-fe-01",
+    "device_type": "DRY_POWDER_FIRE_EXTINGUISHER",
+    "label": "DP Fire Extinguisher 01",
+    "floor_key": "bali_p1",
+    "candidate_key": "lib-bali-p1",
+    "position": {
+      "x": 180,
+      "y": 280
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-bali-p1-bg-01",
+    "device_type": "BREAKGLASS_CALL_POINT",
+    "label": "Breakglass Call Point 01",
+    "floor_key": "bali_p1",
+    "candidate_key": "lib-bali-p1",
+    "position": {
+      "x": 230,
+      "y": 360
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-bali-p1-hr-01",
+    "device_type": "HOSE_REEL",
+    "label": "Fire Hose Reel 01",
+    "floor_key": "bali_p1",
+    "candidate_key": "lib-bali-p1",
+    "position": {
+      "x": 600,
+      "y": 320
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-bali-p1-sd-01",
+    "device_type": "SMOKE_DETECTOR",
+    "label": "Smoke Detector 01",
+    "floor_key": "bali_p1",
+    "candidate_key": "lib-bali-p1",
+    "position": {
+      "x": 580,
+      "y": 210
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-bali-p1-co2-01",
+    "device_type": "CO2_FIRE_EXTINGUISHER",
+    "label": "CO2 Fire Extinguisher 01",
+    "floor_key": "bali_p1",
+    "candidate_key": "lib-bali-p1",
+    "position": {
+      "x": 980,
+      "y": 430
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-bali-p1-hy-01",
+    "device_type": "PILLAR_HYDRANT",
+    "label": "Pillar Hydrant 01",
+    "floor_key": "bali_p1",
+    "candidate_key": "lib-bali-p1",
+    "position": {
+      "x": 1100,
+      "y": 320
+    },
+    "source_supported": true
+  }
+]
