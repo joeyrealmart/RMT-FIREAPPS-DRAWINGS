@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <style>
+    .bg { fill: #0f172a; }
+    .title-bg { fill: #1e293b; stroke: #334155; stroke-width: 1.5; }
+    .wall-outer { stroke: #38bdf8; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wall-inner { stroke: #94a3b8; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .partition { stroke: #64748b; stroke-width: 1.5; stroke-dasharray: 4 2; fill: none; }
+    .door { stroke: #38bdf8; stroke-width: 1.5; fill: none; }
+    .door-arc { stroke: #38bdf8; stroke-width: 1; stroke-dasharray: 3 3; fill: none; }
+    .room-fill { fill: #1e293b; fill-opacity: 0.6; }
+    .bay-fill { fill: #0284c7; fill-opacity: 0.08; }
+    .stair-step { stroke: #64748b; stroke-width: 1.2; }
+    .column { fill: #38bdf8; stroke: #0284c7; stroke-width: 1; }
+    .text-title { font-family: system-ui, -apple-system, sans-serif; font-size: 20px; font-weight: bold; fill: #f8fafc; }
+    .text-subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; fill: #94a3b8; }
+    .text-room { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #f1f5f9; text-anchor: middle; }
+    .text-room-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #cbd5e1; text-anchor: middle; }
+    .legend-border { stroke: #475569; stroke-width: 1.5; fill: #1e293b; fill-opacity: 0.8; }
+    .legend-text { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #e2e8f0; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="1200" height="900" />
+
+  <!-- Title Block Header -->
+  <g id="title_block">
+    <rect class="title-bg" x="40" y="30" width="1120" height="80" rx="6" />
+    <text class="text-title" x="60" y="62">BALI — PAGE 3</text>
+    <text class="text-subtitle" x="60" y="85">CANDIDATE: lib-bali-p3 | ARCHITECTURAL FLOORPLAN MIMIC | LEVEL 3 / UPPER FLOOR &amp; TERRACE</text>
+    <text class="text-subtitle" x="700" y="85">SOURCE: page-003.png (SHA-256: 3D555F968D91632D805AAB7B8B81E304E4FB5E59CC318B9A11A32634D5262444)</text>
+  </g>
+
+  <!-- Building Outer Boundary & Terrace Perimeter -->
+  <g id="building_outline">
+    <polygon class="wall-outer" points="80,150 1120,150 1120,820 80,820" />
+    <polygon class="partition" points="640,360 1120,360 1120,820 640,820" />
+    <text class="text-room-sub" x="880" y="590">OPEN ROOF TERRACE / DECK AREA</text>
+  </g>
+
+  <!-- Primary Structural Walls & Internal Division -->
+  <g id="walls_core">
+    <!-- Main Longitudinal Corridor -->
+    <line class="wall-inner" x1="80" y1="280" x2="1120" y2="280" />
+    <line class="wall-inner" x1="80" y1="360" x2="640" y2="360" />
+
+    <!-- Upper Office & Suite Walls -->
+    <line class="wall-inner" x1="280" y1="150" x2="280" y2="280" />
+    <line class="wall-inner" x1="480" y1="150" x2="480" y2="280" />
+    <line class="wall-inner" x1="680" y1="150" x2="680" y2="280" />
+    <line class="wall-inner" x1="880" y1="150" x2="880" y2="280" />
+
+    <!-- Lower Enclosed Rooms (Left Wing) -->
+    <line class="wall-inner" x1="240" y1="360" x2="240" y2="820" />
+    <line class="wall-inner" x1="440" y1="360" x2="440" y2="820" />
+    <line class="wall-inner" x1="640" y1="360" x2="640" y2="820" />
+
+    <line class="wall-inner" x1="240" y1="590" x2="640" y2="590" />
+
+    <!-- Structural Grid Columns -->
+    <rect class="column" x="75" y="145" width="10" height="10" />
+    <rect class="column" x="275" y="145" width="10" height="10" />
+    <rect class="column" x="475" y="145" width="10" height="10" />
+    <rect class="column" x="675" y="145" width="10" height="10" />
+    <rect class="column" x="875" y="145" width="10" height="10" />
+    <rect class="column" x="1115" y="145" width="10" height="10" />
+
+    <rect class="column" x="75" y="815" width="10" height="10" />
+    <rect class="column" x="235" y="815" width="10" height="10" />
+    <rect class="column" x="435" y="815" width="10" height="10" />
+    <rect class="column" x="635" y="815" width="10" height="10" />
+    <rect class="column" x="1115" y="815" width="10" height="10" />
+  </g>
+
+  <!-- Door Swings -->
+  <g id="doors_windows">
+    <path class="door" d="M 180,280 L 210,280" />
+    <path class="door-arc" d="M 210,280 A 30 30 0 0 1 180,310" />
+
+    <path class="door" d="M 380,280 L 410,280" />
+    <path class="door-arc" d="M 410,280 A 30 30 0 0 1 380,310" />
+
+    <path class="door" d="M 580,280 L 610,280" />
+    <path class="door-arc" d="M 610,280 A 30 30 0 0 1 580,310" />
+
+    <path class="door" d="M 780,280 L 810,280" />
+    <path class="door-arc" d="M 810,280 A 30 30 0 0 1 780,310" />
+
+    <path class="door" d="M 980,280 L 1010,280" />
+    <path class="door-arc" d="M 1010,280 A 30 30 0 0 1 980,310" />
+
+    <path class="door" d="M 140,360 L 170,360" />
+    <path class="door-arc" d="M 170,360 A 30 30 0 0 0 140,330" />
+
+    <path class="door" d="M 340,360 L 370,360" />
+    <path class="door-arc" d="M 370,360 A 30 30 0 0 0 340,330" />
+
+    <path class="door" d="M 540,360 L 570,360" />
+    <path class="door-arc" d="M 570,360 A 30 30 0 0 0 540,330" />
+  </g>
+
+  <!-- Vertical Core (Stairs & Elevator) -->
+  <g id="stairs_lifts">
+    <!-- Main Stairwell -->
+    <rect class="room-fill" x="85" y="370" width="145" height="200" />
+    <line class="stair-step" x1="85" y1="390" x2="230" y2="390" />
+    <line class="stair-step" x1="85" y1="410" x2="230" y2="410" />
+    <line class="stair-step" x1="85" y1="430" x2="230" y2="430" />
+    <line class="stair-step" x1="85" y1="450" x2="230" y2="450" />
+    <line class="stair-step" x1="85" y1="470" x2="230" y2="470" />
+    <line class="stair-step" x1="85" y1="490" x2="230" y2="490" />
+    <line class="stair-step" x1="85" y1="510" x2="230" y2="510" />
+    <line class="stair-step" x1="85" y1="530" x2="230" y2="530" />
+    <line class="stair-step" x1="85" y1="550" x2="230" y2="550" />
+
+    <!-- Elevator Shaft -->
+    <rect class="room-fill" x="85" y="590" width="145" height="120" />
+    <line class="wall-inner" x1="85" y1="590" x2="230" y2="710" />
+    <line class="wall-inner" x1="230" y1="590" x2="85" y2="710" />
+  </g>
+
+  <!-- Central Circulation Corridor -->
+  <g id="circulation">
+    <rect class="bay-fill" x="80" y="280" width="1040" height="80" />
+    <text class="text-room-sub" x="600" y="325">LEVEL 3 CIRCULATION CORRIDOR</text>
+  </g>
+
+  <!-- Major Rooms & Text Labels -->
+  <g id="rooms_text">
+    <text class="text-room" x="180" y="210">EXECUTIVE OFFICE 301</text>
+    <text class="text-room" x="380" y="210">EXECUTIVE OFFICE 302</text>
+    <text class="text-room" x="580" y="210">BOARDROOM</text>
+    <text class="text-room" x="780" y="210">LOUNGE / SERVERY</text>
+    <text class="text-room" x="1000" y="210">ROOF ACCESS / STAIR</text>
+
+    <text class="text-room-sub" x="157" y="475">STAIRWELL A</text>
+    <text class="text-room-sub" x="157" y="655">ELEVATOR LIFT</text>
+
+    <text class="text-room" x="340" y="470">DIRECTOR SUITE 1</text>
+    <text class="text-room" x="540" y="470">DIRECTOR SUITE 2</text>
+
+    <text class="text-room" x="340" y="700">ARCHIVE / STORAGE</text>
+    <text class="text-room" x="540" y="700">SERVER CONTROL</text>
+  </g>
+
+  <!-- Legend -->
+  <g id="legend" transform="translate(40, 835)">
+    <rect class="legend-border" x="0" y="0" width="1120" height="35" rx="4" />
+    <text class="legend-text" x="20" y="22">LEGEND:</text>
+    <line class="wall-outer" x1="90" y1="20" x2="130" y2="20" />
+    <text class="legend-text" x="140" y="22">Exterior Wall</text>
+
+    <line class="wall-inner" x1="240" y1="20" x2="280" y2="20" />
+    <text class="legend-text" x="290" y="22">Interior Wall</text>
+
+    <path class="door" d="M 390,20 L 410,20" />
+    <text class="legend-text" x="420" y="22">Door Swing</text>
+
+    <rect class="column" x="510" y="14" width="12" height="12" />
+    <text class="legend-text" x="530" y="22">Column/Core</text>
+
+    <text class="legend-text" x="750" y="22">RMT Mimic Vector Floorplan Standard (Source: page-003.png)</text>
+  </g>
+</svg>
