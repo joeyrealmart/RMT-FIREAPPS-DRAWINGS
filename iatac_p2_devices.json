@@ -1,0 +1,74 @@
+[
+  {
+    "device_id": "dev-iatac-p2-fe-01",
+    "device_type": "DRY_POWDER_FIRE_EXTINGUISHER",
+    "label": "DP Fire Extinguisher 01",
+    "floor_key": "iatac_p2",
+    "candidate_key": "lib-iatac-p2",
+    "position": {
+      "x": 220,
+      "y": 300
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p2-sd-01",
+    "device_type": "SMOKE_DETECTOR",
+    "label": "Smoke Detector 01",
+    "floor_key": "iatac_p2",
+    "candidate_key": "lib-iatac-p2",
+    "position": {
+      "x": 600,
+      "y": 200
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p2-bg-01",
+    "device_type": "BREAKGLASS_CALL_POINT",
+    "label": "Breakglass Call Point 01",
+    "floor_key": "iatac_p2",
+    "candidate_key": "lib-iatac-p2",
+    "position": {
+      "x": 260,
+      "y": 1100
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p2-hr-01",
+    "device_type": "HOSE_REEL",
+    "label": "Fire Hose Reel 01",
+    "floor_key": "iatac_p2",
+    "candidate_key": "lib-iatac-p2",
+    "position": {
+      "x": 1020,
+      "y": 1100
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p2-sd-02",
+    "device_type": "SMOKE_DETECTOR",
+    "label": "Smoke Detector 02",
+    "floor_key": "iatac_p2",
+    "candidate_key": "lib-iatac-p2",
+    "position": {
+      "x": 575,
+      "y": 860
+    },
+    "source_supported": true
+  },
+  {
+    "device_id": "dev-iatac-p2-co2-01",
+    "device_type": "CO2_FIRE_EXTINGUISHER",
+    "label": "CO2 Fire Extinguisher 01",
+    "floor_key": "iatac_p2",
+    "candidate_key": "lib-iatac-p2",
+    "position": {
+      "x": 835,
+      "y": 1025
+    },
+    "source_supported": true
+  }
+]

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1190 1684" width="1190" height="1684">
+  <style>
+    .bg { fill: #0f172a; }
+    .title-bg { fill: #1e293b; stroke: #334155; stroke-width: 1.5; }
+    .wall-outer { stroke: #38bdf8; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wall-inner { stroke: #94a3b8; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .partition { stroke: #64748b; stroke-width: 1.5; stroke-dasharray: 4 2; fill: none; }
+    .door { stroke: #38bdf8; stroke-width: 1.5; fill: none; }
+    .door-arc { stroke: #38bdf8; stroke-width: 1; stroke-dasharray: 3 3; fill: none; }
+    .room-fill { fill: #1e293b; fill-opacity: 0.6; }
+    .void-fill { fill: #0f172a; fill-opacity: 0.8; stroke: #475569; stroke-dasharray: 6 3; }
+    .stair-step { stroke: #64748b; stroke-width: 1.2; }
+    .column { fill: #38bdf8; stroke: #0284c7; stroke-width: 1; }
+    .text-title { font-family: system-ui, -apple-system, sans-serif; font-size: 20px; font-weight: bold; fill: #f8fafc; }
+    .text-subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .text-room { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #f1f5f9; text-anchor: middle; }
+    .text-room-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #cbd5e1; text-anchor: middle; }
+    .legend-border { stroke: #475569; stroke-width: 1.5; fill: #1e293b; fill-opacity: 0.8; }
+    .legend-text { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #e2e8f0; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="1190" height="1684" />
+
+  <!-- Title Block Header -->
+  <g id="title_block">
+    <rect class="title-bg" x="50" y="40" width="1090" height="160" rx="6" />
+    <text class="text-title" x="80" y="85">IATAC — PAGE 2</text>
+    <text class="text-subtitle" x="80" y="112">CANDIDATE: lib-iatac-p2 | ARCHITECTURAL FLOORPLAN MIMIC</text>
+    <text class="text-subtitle" x="80" y="132">AUTHORITATIVE SOURCE: page-002.png (SHA-256: FEDA216A7A982855707DA98F0D03EEF1C9E60E50E4941F969CE15B29F4A2F6CB)</text>
+    <text class="text-subtitle" x="80" y="152">SITE: IATAC | FLOOR IDENTITY: First Floor / Page 2</text>
+  </g>
+
+  <!-- Floorplan Main Boundary Container -->
+  <g id="architectural_geometry">
+
+    <!-- Fills -->
+    <rect class="room-fill" x="200" y="100" width="800" height="420" />
+    <rect class="void-fill" x="250" y="520" width="700" height="260" />
+    <rect class="room-fill" x="250" y="780" width="800" height="480" />
+
+    <!-- Outer Structural Walls -->
+    <path class="wall-outer" d="
+      M 200,100 L 1000,100 L 1000,520 L 950,520 L 950,780 L 1050,780 L 1050,1260 L 250,1260 L 250,780 L 200,780 L 200,100 Z
+    " />
+
+    <!-- First Floor Upper Bay Partition Walls (Y=100-520) -->
+    <path class="wall-inner" d="M 330,100 L 330,520" />
+    <path class="wall-inner" d="M 440,100 L 440,520" />
+    <path class="wall-inner" d="M 550,100 L 550,520" />
+    <path class="wall-inner" d="M 660,100 L 660,520" />
+    <path class="wall-inner" d="M 770,100 L 770,520" />
+    <path class="wall-inner" d="M 880,100 L 880,520" />
+
+    <!-- Corridor & Walkway Borders (Y=300) -->
+    <path class="wall-inner" d="M 200,300 L 1000,300" />
+
+    <!-- Lower Office & Training Wing Partitions (Y=780-1260) -->
+    <path class="wall-inner" d="M 250,940 L 1050,940" />
+    <path class="wall-inner" d="M 250,1110 L 1050,1110" />
+
+    <path class="wall-inner" d="M 380,780 L 380,1260" />
+    <path class="wall-inner" d="M 510,780 L 510,1260" />
+    <path class="wall-inner" d="M 640,780 L 640,1260" />
+    <path class="wall-inner" d="M 770,780 L 770,1260" />
+    <path class="wall-inner" d="M 900,780 L 900,1260" />
+
+    <!-- Columns -->
+    <rect class="column" x="200" y="100" width="16" height="16" />
+    <rect class="column" x="440" y="100" width="16" height="16" />
+    <rect class="column" x="660" y="100" width="16" height="16" />
+    <rect class="column" x="880" y="100" width="16" height="16" />
+    <rect class="column" x="1000" y="100" width="16" height="16" />
+
+    <rect class="column" x="250" y="780" width="16" height="16" />
+    <rect class="column" x="510" y="780" width="16" height="16" />
+    <rect class="column" x="770" y="780" width="16" height="16" />
+    <rect class="column" x="1050" y="780" width="16" height="16" />
+
+    <!-- Stairs -->
+    <g id="stairs">
+      <line class="stair-step" x1="260" y1="1120" x2="370" y2="1120" />
+      <line class="stair-step" x1="260" y1="1135" x2="370" y2="1135" />
+      <line class="stair-step" x1="260" y1="1150" x2="370" y2="1150" />
+      <line class="stair-step" x1="260" y1="1165" x2="370" y2="1165" />
+      <line class="stair-step" x1="260" y1="1180" x2="370" y2="1180" />
+      <line class="stair-step" x1="260" y1="1195" x2="370" y2="1195" />
+
+      <line class="stair-step" x1="910" y1="1120" x2="1040" y2="1120" />
+      <line class="stair-step" x1="910" y1="1135" x2="1040" y2="1135" />
+      <line class="stair-step" x1="910" y1="1150" x2="1040" y2="1150" />
+      <line class="stair-step" x1="910" y1="1165" x2="1040" y2="1165" />
+      <line class="stair-step" x1="910" y1="1180" x2="1040" y2="1180" />
+      <line class="stair-step" x1="910" y1="1195" x2="1040" y2="1195" />
+    </g>
+
+    <!-- Room Labels -->
+    <g id="labels">
+      <!-- Upper Section -->
+      <text class="text-room" x="265" y="200">INSTRUCTOR 1</text>
+      <text class="text-room" x="385" y="200">INSTRUCTOR 2</text>
+      <text class="text-room" x="495" y="200">CHIEF FLYING</text>
+      <text class="text-room-sub" x="495" y="215">INSTRUCTOR</text>
+      <text class="text-room" x="605" y="200">EXAM ROOM</text>
+      <text class="text-room" x="715" y="200">SIMULATOR</text>
+      <text class="text-room-sub" x="715" y="215">ROOM 1</text>
+      <text class="text-room" x="825" y="200">SIMULATOR</text>
+      <text class="text-room-sub" x="825" y="215">ROOM 2</text>
+      <text class="text-room" x="940" y="200">AVIONICS LAB</text>
+
+      <text class="text-room" x="600" y="410">UPPER CORRIDOR / BALCONY WALKWAY</text>
+
+      <!-- Void Section -->
+      <text class="text-room" x="600" y="640">VOID OVER HANGAR FLOOR</text>
+      <text class="text-room-sub" x="600" y="660">(OPEN TO GROUND LEVEL BELOW)</text>
+
+      <!-- Lower Section -->
+      <text class="text-room" x="315" y="860">CLASSROOM A</text>
+      <text class="text-room" x="445" y="860">CLASSROOM B</text>
+      <text class="text-room" x="575" y="860">MAIN AUDITORIUM</text>
+      <text class="text-room" x="705" y="860">LIBRARY / STUDY</text>
+      <text class="text-room" x="835" y="860">STAFF LOUNGE</text>
+      <text class="text-room" x="975" y="860">ADMIN OFFICE</text>
+
+      <text class="text-room" x="315" y="1025">STAIR 1 CORE</text>
+      <text class="text-room" x="445" y="1025">1ST FL CORRIDOR</text>
+      <text class="text-room" x="575" y="1025">MEETING ROOM</text>
+      <text class="text-room" x="705" y="1025">RESTROOMS</text>
+      <text class="text-room" x="835" y="1025">SERVER ROOM</text>
+      <text class="text-room" x="975" y="1025">STAIR 2 CORE</text>
+
+      <text class="text-room" x="315" y="1220">STAIRWELL 1</text>
+      <text class="text-room" x="445" y="1185">STORE / ARCHIVE</text>
+      <text class="text-room" x="575" y="1185">PANTRY</text>
+      <text class="text-room" x="705" y="1185">CLEANER</text>
+      <text class="text-room" x="835" y="1185">AHU ROOM</text>
+      <text class="text-room" x="975" y="1220">STAIRWELL 2</text>
+    </g>
+
+  </g>
+
+  <!-- Architectural Legend Block -->
+  <g id="legend">
+    <rect class="legend-border" x="850" y="1450" width="280" height="180" rx="4" />
+    <text class="text-room" x="990" y="1475">LEGEND / SYMBOLS</text>
+    <line x1="870" y1="1490" x2="1110" y2="1490" stroke="#475569" stroke-width="1" />
+
+    <line class="wall-outer" x1="870" y1="1515" x2="910" y2="1515" />
+    <text class="legend-text" x="925" y="1519">Primary Outer Wall</text>
+
+    <line class="wall-inner" x1="870" y1="1540" x2="910" y2="1540" />
+    <text class="legend-text" x="925" y="1544">Interior Partition</text>
+
+    <rect class="void-fill" x="870" y="1555" width="40" height="18" />
+    <text class="legend-text" x="925" y="1569">Floor Void / Open Area</text>
+
+    <rect class="column" x="880" y="1590" width="12" height="12" />
+    <text class="legend-text" x="925" y="1600">Structural Column</text>
+  </g>
+</svg>

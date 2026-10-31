@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1190 1684" width="1190" height="1684">
+  <style>
+    .bg { fill: #0f172a; }
+    .title-bg { fill: #1e293b; stroke: #334155; stroke-width: 1.5; }
+    .wall-outer { stroke: #38bdf8; stroke-width: 3.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .wall-inner { stroke: #94a3b8; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .partition { stroke: #64748b; stroke-width: 1.5; stroke-dasharray: 4 2; fill: none; }
+    .roof-beam { stroke: #f59e0b; stroke-width: 2; stroke-dasharray: 8 4; fill: none; }
+    .room-fill { fill: #1e293b; fill-opacity: 0.6; }
+    .mezz-fill { fill: #0369a1; fill-opacity: 0.15; }
+    .stair-step { stroke: #64748b; stroke-width: 1.2; }
+    .column { fill: #38bdf8; stroke: #0284c7; stroke-width: 1; }
+    .text-title { font-family: system-ui, -apple-system, sans-serif; font-size: 20px; font-weight: bold; fill: #f8fafc; }
+    .text-subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+    .text-room { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #f1f5f9; text-anchor: middle; }
+    .text-room-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #cbd5e1; text-anchor: middle; }
+    .legend-border { stroke: #475569; stroke-width: 1.5; fill: #1e293b; fill-opacity: 0.8; }
+    .legend-text { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #e2e8f0; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" width="1190" height="1684" />
+
+  <!-- Title Block Header -->
+  <g id="title_block">
+    <rect class="title-bg" x="50" y="40" width="1090" height="160" rx="6" />
+    <text class="text-title" x="80" y="85">IATAC — PAGE 3</text>
+    <text class="text-subtitle" x="80" y="112">CANDIDATE: lib-iatac-p3 | ARCHITECTURAL FLOORPLAN MIMIC</text>
+    <text class="text-subtitle" x="80" y="132">AUTHORITATIVE SOURCE: page-003.png (SHA-256: E1AC21F279B760E6D134186ACDBB24493FB51443EA9C9CDD3FBC54BB55F1B34F)</text>
+    <text class="text-subtitle" x="80" y="152">SITE: IATAC | FLOOR IDENTITY: Upper Floor / Roof / Mezzanine Plan / Page 3</text>
+  </g>
+
+  <!-- Floorplan Main Boundary Container -->
+  <g id="architectural_geometry">
+
+    <!-- Fills -->
+    <rect class="mezz-fill" x="330" y="220" width="530" height="320" />
+    <rect class="room-fill" x="160" y="620" width="220" height="280" />
+
+    <!-- Upper Mezzanine & Mechanical Roof Core -->
+    <path class="wall-outer" d="
+      M 330,220 L 860,220 L 860,540 L 330,540 Z
+    " />
+
+    <path class="wall-inner" d="M 490,220 L 490,540" />
+    <path class="wall-inner" d="M 620,220 L 620,540" />
+    <path class="wall-inner" d="M 740,220 L 740,540" />
+    <path class="wall-inner" d="M 330,380 L 860,380" />
+
+    <!-- Structural Beams & Trusses -->
+    <line class="roof-beam" x1="160" y1="220" x2="160" y2="1200" />
+    <line class="roof-beam" x1="950" y1="220" x2="950" y2="1200" />
+    <line class="roof-beam" x1="160" y1="380" x2="950" y2="380" />
+    <line class="roof-beam" x1="160" y1="540" x2="950" y2="540" />
+    <line class="roof-beam" x1="160" y1="700" x2="950" y2="700" />
+    <line class="roof-beam" x1="160" y1="860" x2="950" y2="860" />
+
+    <!-- Lower Level Plant & Lift Motor Annex -->
+    <path class="wall-outer" d="
+      M 160,620 L 380,620 L 380,900 L 160,900 Z
+    " />
+
+    <path class="wall-inner" d="M 160,690 L 380,690" />
+    <path class="wall-inner" d="M 160,760 L 380,760" />
+    <path class="wall-inner" d="M 160,830 L 380,830" />
+
+    <!-- Columns -->
+    <rect class="column" x="330" y="220" width="16" height="16" />
+    <rect class="column" x="490" y="220" width="16" height="16" />
+    <rect class="column" x="620" y="220" width="16" height="16" />
+    <rect class="column" x="740" y="220" width="16" height="16" />
+    <rect class="column" x="860" y="220" width="16" height="16" />
+
+    <rect class="column" x="160" y="620" width="16" height="16" />
+    <rect class="column" x="380" y="620" width="16" height="16" />
+
+    <!-- Stairs -->
+    <g id="stairs">
+      <line class="stair-step" x1="340" y1="390" x2="480" y2="390" />
+      <line class="stair-step" x1="340" y1="405" x2="480" y2="405" />
+      <line class="stair-step" x1="340" y1="420" x2="480" y2="420" />
+      <line class="stair-step" x1="340" y1="435" x2="480" y2="435" />
+      <line class="stair-step" x1="340" y1="450" x2="480" y2="450" />
+    </g>
+
+    <!-- Labels -->
+    <g id="labels">
+      <text class="text-room" x="410" y="300">MEZZANINE LEVEL</text>
+      <text class="text-room-sub" x="410" y="320">OBSERVATION BALCONY</text>
+
+      <text class="text-room" x="555" y="300">AHU PLANT ROOM</text>
+      <text class="text-room" x="680" y="300">LIFT MOTOR</text>
+      <text class="text-room-sub" x="680" y="315">ROOM</text>
+      <text class="text-room" x="800" y="300">WATER TANK /</text>
+      <text class="text-room-sub" x="800" y="315">SERVICES</text>
+
+      <text class="text-room" x="410" y="480">STAIRWELL ACCESS</text>
+      <text class="text-room" x="555" y="480">MECH STORE</text>
+      <text class="text-room" x="680" y="480">CATWALK EXIT</text>
+      <text class="text-room" x="800" y="480">ROOF ACCESS</text>
+
+      <text class="text-room" x="270" y="660">ROOF ACCESS ROOM</text>
+      <text class="text-room" x="270" y="730">EXHAUST DUCT CORE</text>
+      <text class="text-room" x="270" y="800">MECH SHAFT</text>
+      <text class="text-room" x="270" y="870">SERVICE LANDING</text>
+    </g>
+
+  </g>
+
+  <!-- Architectural Legend Block -->
+  <g id="legend">
+    <rect class="legend-border" x="850" y="1450" width="280" height="180" rx="4" />
+    <text class="text-room" x="990" y="1475">LEGEND / SYMBOLS</text>
+    <line x1="870" y1="1490" x2="1110" y2="1490" stroke="#475569" stroke-width="1" />
+
+    <line class="wall-outer" x1="870" y1="1515" x2="910" y2="1515" />
+    <text class="legend-text" x="925" y="1519">Primary Outer Wall</text>
+
+    <line class="wall-inner" x1="870" y1="1540" x2="910" y2="1540" />
+    <text class="legend-text" x="925" y="1544">Interior Partition</text>
+
+    <line class="roof-beam" x1="870" y1="1565" x2="910" y2="1565" />
+    <text class="legend-text" x="925" y="1569">Roof Truss / Beam</text>
+
+    <rect class="column" x="880" y="1590" width="12" height="12" />
+    <text class="legend-text" x="925" y="1600">Structural Column</text>
+  </g>
+</svg>
